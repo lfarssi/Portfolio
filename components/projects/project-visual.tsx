@@ -20,7 +20,7 @@ export function ProjectVisual({
   if (project.image && !isPlaceholder(project.image)) {
     return (
       <div className={cn("relative overflow-hidden bg-surface-muted", className)}>
-        <Image src={project.image} alt="" fill sizes={sizes} priority={priority} className="object-cover" />
+        <Image src={project.image} alt="" fill sizes={sizes} priority={priority} className="object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
       </div>
     );
   }

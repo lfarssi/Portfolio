@@ -15,7 +15,7 @@ export function Volunteering({ locale, t, volunteering }: SectionProps & { volun
   return (
     <Section id="volunteering">
       <SectionHeader id="volunteering-title" {...t.sections.volunteering} />
-      <ul className="grid gap-5 md:grid-cols-2">
+      <ul className="stagger grid gap-5 md:grid-cols-2">
         {volunteering.map((entry, index) => (
           <Reveal as="li" key={`${index}-${entry.organization}`}>
             <Card className="flex h-full gap-4 p-5">

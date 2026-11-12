@@ -4,7 +4,7 @@ export function TechChip({ children, className }: { children: string; className?
   return (
     <span
       className={cn(
-        "inline-flex items-center rounded-md border bg-surface-muted px-2 py-0.5 font-mono text-xs text-muted-foreground",
+        "inline-flex items-center rounded-md border bg-surface-muted px-2 py-0.5 font-mono text-xs text-muted-foreground transition-colors duration-200 hover:border-primary/50 hover:text-foreground",
         isPlaceholder(children) && "border-dashed border-danger/50 text-danger",
         className,
       )}

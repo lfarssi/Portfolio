@@ -13,7 +13,7 @@ function Card({
       className={cn(
         "rounded-xl border bg-surface text-card-foreground shadow-card",
         interactive &&
-          "transition-[transform,border-color] duration-200 hover:-translate-y-0.5 hover:border-primary motion-reduce:hover:translate-y-0",
+          "transition-[transform,border-color,box-shadow] duration-300 ease-out hover:-translate-y-1 hover:border-primary/60 hover:shadow-card-hover motion-reduce:hover:translate-y-0",
         className,
       )}
       {...props}

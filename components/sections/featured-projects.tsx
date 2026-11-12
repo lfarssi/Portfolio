@@ -18,7 +18,7 @@ export function FeaturedProjects({
   return (
     <Section id="projects" muted>
       <SectionHeader id="projects-title" {...t.sections.projects} />
-      <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <ul className="stagger grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
           <Reveal as="li" key={project.slug}>
             <ProjectCard project={project} locale={locale} t={t} isDraft={isDraft(project)} />

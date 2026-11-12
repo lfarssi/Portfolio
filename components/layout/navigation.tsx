@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -17,14 +18,29 @@ export function Navigation({ name, initials, cv }: { name: string; initials: str
   const pathname = usePathname();
   const active = useActiveSection(pathname === "/");
   const { t } = useLanguage();
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 8);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
-    <header className="sticky top-0 z-40 border-b bg-background/85 backdrop-blur supports-[backdrop-filter]:bg-background/70">
+    <header
+      className={cn(
+        "sticky top-0 z-40 border-b backdrop-blur-md transition-[background-color,box-shadow,border-color] duration-300",
+        scrolled
+          ? "bg-background/80 shadow-[0_8px_30px_-12px_rgb(0_0_0/0.25)]"
+          : "border-transparent bg-background/40",
+      )}
+    >
       <div className="mx-auto flex h-16 w-full max-w-[72rem] items-center justify-between gap-4 px-4 sm:px-6">
-        <Link href="/" className="flex items-center gap-2.5 rounded-md font-semibold" aria-label={`${name}, ${t.nav.home}`}>
+        <Link href="/" className="group flex items-center gap-2.5 rounded-md font-semibold" aria-label={`${name}, ${t.nav.home}`}>
           <span
             aria-hidden="true"
-            className="inline-flex size-8 items-center justify-center rounded-md bg-primary font-mono text-sm font-bold text-primary-foreground"
+            className="inline-flex size-8 items-center justify-center rounded-md bg-primary font-mono text-sm font-bold text-primary-foreground shadow-md shadow-primary/30 transition-transform duration-300 group-hover:-rotate-6"
           >
             {initials}
           </span>

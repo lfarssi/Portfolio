@@ -20,7 +20,7 @@ export function Roles({ locale, t, roles }: SectionProps & { roles: Role[] }) {
   return (
     <Section id="roles" muted>
       <SectionHeader id="roles-title" {...t.sections.roles} />
-      <ul className="grid gap-6 md:grid-cols-2">
+      <ul className="stagger grid gap-6 md:grid-cols-2">
         {roles.map((role) => {
           const Icon = icons[role.id] ?? Code;
           const primary = role.level === "primary";
