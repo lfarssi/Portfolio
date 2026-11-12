@@ -5,6 +5,8 @@ import { NextResponse, type NextRequest } from "next/server";
 export function proxy(request: NextRequest) {
   const nonce = Buffer.from(crypto.randomUUID()).toString("base64");
   const isDev = process.env.NODE_ENV === "development";
+  // `next start` on http://localhost must not upgrade its own assets to https.
+  const isLocal = ["localhost", "127.0.0.1"].includes(request.nextUrl.hostname);
 
   const githubImages = [
     "https://raw.githubusercontent.com",
@@ -27,7 +29,7 @@ export function proxy(request: NextRequest) {
     "frame-ancestors 'none'",
     "manifest-src 'self'",
     "worker-src 'self'",
-    ...(isDev ? [] : ["upgrade-insecure-requests"]),
+    ...(isDev || isLocal ? [] : ["upgrade-insecure-requests"]),
   ].join("; ");
 
   const requestHeaders = new Headers(request.headers);
