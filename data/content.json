@@ -1690,6 +1690,46 @@
       "credentialUrl": ""
     }
   ],
-  "volunteering": [],
-  "experience": []
+  "volunteering": [
+    {
+      "organization": "Association des Donneurs de Sang, Berkane",
+      "role": {
+        "en": "Volunteer",
+        "fr": "Bénévole"
+      },
+      "dateStart": "2024-01",
+      "dateEnd": "",
+      "description": {
+        "en": "Helps organise blood donation drives in Berkane: welcoming and registering donors, coordinating with medical staff and raising awareness in the community.",
+        "fr": "Participe à l'organisation des collectes de sang à Berkane : accueil et enregistrement des donneurs, coordination avec l'équipe médicale et sensibilisation de la population."
+      }
+    }
+  ],
+  "experience": [
+    {
+      "company": "Local software company",
+      "role": {
+        "en": "Full-Stack Web Developer Intern",
+        "fr": "Stagiaire développeur web full-stack"
+      },
+      "location": {
+        "en": "Berkane, Morocco",
+        "fr": "Berkane, Maroc"
+      },
+      "dateStart": "2024-05",
+      "dateEnd": "2024-05",
+      "bullets": {
+        "en": [
+          "One-month internship inside a development team, from specifications to delivery",
+          "Built features for a Laravel and JavaScript web application backed by MySQL",
+          "Applied form validation and access control on the new pages, with code reviewed by the team"
+        ],
+        "fr": [
+          "Stage d'un mois au sein d'une équipe de développement, du cahier des charges à la livraison",
+          "Développement de fonctionnalités pour une application web Laravel et JavaScript avec MySQL",
+          "Validation des formulaires et contrôle d'accès sur les nouvelles pages, avec revue de code par l'équipe"
+        ]
+      }
+    }
+  ]
 }

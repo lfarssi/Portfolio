@@ -91,6 +91,8 @@ These values are **mock data** so the site looks complete. Replace each one with
 | Dates of buy-01, deep-in-system, crud-master, wget, make-your-game | `data/content.json` (`projects[].date`) |
 | TryHackMe learning paths (4th education entry) | `data/content.json` (`education[3]`) |
 | All four certifications (PCAP, TryHackMe rank, hackathon, Cisco) | `data/content.json` (`certifications`) |
+| Internship: company name ("Local software company"), month (May 2024) and bullets | `data/content.json` (`experience[0]`) |
+| Volunteering: exact association name, start date (Jan 2024, ongoing) and description | `data/content.json` (`volunteering[0]`) |
 | EmailJS IDs (empty) | `lib/site-config.ts` |
 | Screenshot | this README |
 
