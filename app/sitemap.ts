@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 import { getProjects } from "@/lib/content";
-import { siteUrl } from "@/lib/env";
+import { siteUrl } from "@/lib/site-config";
 import { isPlaceholder } from "@/lib/utils";
 
 /** Routes that exist in app/. Every sitemap URL must match one of them. */

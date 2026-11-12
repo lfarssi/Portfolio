@@ -130,7 +130,6 @@ const en = {
   },
   common: {
     downloadCv: "Download CV",
-    cvSoon: "CV coming soon",
     seeAll: "See all projects",
     back: "Back",
     present: "Present",
@@ -265,7 +264,6 @@ const fr: Dictionary = {
   },
   common: {
     downloadCv: "Télécharger le CV",
-    cvSoon: "CV bientôt disponible",
     seeAll: "Voir tous les projets",
     back: "Retour",
     present: "Aujourd'hui",

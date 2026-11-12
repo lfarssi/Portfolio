@@ -1,6 +1,6 @@
 "use server";
 
-import { emailJsConfig } from "@/lib/env";
+import { emailJsConfig } from "@/lib/site-config";
 import { contactSchema } from "@/lib/schema";
 
 export type ContactField = "name" | "email" | "subject" | "message";
@@ -57,7 +57,6 @@ export async function sendContactMessage(_previous: ContactState, formData: Form
         service_id: emailJsConfig.serviceId,
         template_id: emailJsConfig.templateId,
         user_id: emailJsConfig.publicKey,
-        accessToken: emailJsConfig.privateKey,
         // EmailJS templates escape {{variables}}; values are plain text only.
         template_params: {
           from_name: parsed.data.name,

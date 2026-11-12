@@ -2,7 +2,7 @@ import "server-only";
 import type { Metadata } from "next";
 
 import { getProfile } from "@/lib/content";
-import { siteUrl } from "@/lib/env";
+import { siteUrl } from "@/lib/site-config";
 import { getDictionary } from "@/lib/i18n";
 import type { Locale, Project } from "@/lib/types";
 import { usableUrl } from "@/lib/utils";

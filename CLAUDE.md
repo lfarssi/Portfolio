@@ -21,7 +21,7 @@ Next.js App Router, TypeScript strict, Tailwind v4, shadcn/ui, next-themes, pnpm
 ## Where things live
 - Content: `data/content.json` (validated by `lib/schema.ts`, types in `lib/types.ts`, getters in `lib/content.ts`)
 - UI strings: `lib/i18n.ts` (EN + FR, every key in both)
-- Env: `lib/env.ts` (zod), template `.env.example`
+- Site settings (URL, EmailJS IDs): `lib/site-config.ts` (no environment variables)
 - Sections: `components/sections/*`, projects UI: `components/projects/*`
 - Security headers: `next.config.*`; CSP nonce: `proxy.ts` (Next 16 name for `middleware.ts`; no other logic)
 
