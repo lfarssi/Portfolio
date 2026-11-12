@@ -34,7 +34,7 @@ Next.js App Router, TypeScript strict, Tailwind v4, shadcn/ui, next-themes, pnpm
 - Never use the em-dash character in content or UI copy.
 - Every user-facing string exists in EN and FR.
 - No tracking beyond @vercel/analytics; no secrets in code; no `ignoreBuildErrors`.
-- Palette tokens only (navy + teal, no orange); no hardcoded hex in components.
+- Palette tokens only (Indigo Shield: indigo + cyan on deep navy, no orange); no hardcoded hex in components.
 - Keep motion subtle and respect prefers-reduced-motion.
 - WCAG 2.2 AA, Lighthouse 95+.
 - Placeholders use `{{...}}` and must be listed in README before release.
