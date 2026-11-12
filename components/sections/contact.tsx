@@ -65,7 +65,7 @@ export function Contact({ locale, t, profile }: SectionProps & { profile: Profil
               </div>
             ))}
           </dl>
-          <CvButton cv={profile.cv} variant="outline" className="mt-8 w-full sm:w-auto lg:mt-auto lg:self-start" />
+          <CvButton cv={profile.cv} download variant="outline" className="mt-8 w-full sm:w-auto lg:mt-auto lg:self-start" />
         </Card>
 
         <Card className="p-6">
