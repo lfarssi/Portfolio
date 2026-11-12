@@ -1,0 +1,1562 @@
+{
+  "profile": {
+    "fullName": "Mohamed El Farssi",
+    "initials": "MF",
+    "headline": {
+      "en": "Cybersecurity & Mobile Developer",
+      "fr": "Développeur Cybersécurité & Mobile"
+    },
+    "subheadline": {
+      "en": "Full-stack trained at Zone01 Oujda. I build secure web and mobile applications and test them like an attacker would.",
+      "fr": "Formé au full-stack à Zone01 Oujda. Je conçois des applications web et mobiles sécurisées et je les teste comme le ferait un attaquant."
+    },
+    "about": {
+      "en": "I am a junior developer trained in full-stack engineering at Zone01 Oujda, with a Bac+2 in digital development from ISTA Berkane. I build web and mobile applications with security designed in from the start: authentication, input validation, access control and hardened servers. I am looking for a junior role in application security, penetration testing or mobile development. Based in Oujda, Morocco.",
+      "fr": "Développeur junior formé à l'ingénierie full-stack à Zone01 Oujda, titulaire d'un Bac+2 en développement digital de l'ISTA Berkane. Je conçois des applications web et mobiles avec la sécurité intégrée dès le départ : authentification, validation des entrées, contrôle d'accès et serveurs durcis. Je recherche un poste junior en sécurité applicative, test d'intrusion ou développement mobile. Basé à Oujda, Maroc."
+    },
+    "whatIBring": {
+      "en": [
+        "Secure-by-design development: authentication, validation and access control from the first commit",
+        "Mobile apps end to end, from the interface to secure storage and store release",
+        "A full-stack foundation in Java, Go, Rust and JavaScript",
+        "Team delivery proven in peer-to-peer projects with code reviews"
+      ],
+      "fr": [
+        "Développement sécurisé dès la conception : authentification, validation et contrôle d'accès dès le premier commit",
+        "Applications mobiles de bout en bout, de l'interface au stockage sécurisé et à la publication",
+        "Un socle full-stack en Java, Go, Rust et JavaScript",
+        "Livraison en équipe éprouvée sur des projets pair-à-pair avec revues de code"
+      ]
+    },
+    "availability": {
+      "en": "{{e.g. Available immediately, full-time, on-site or remote}}",
+      "fr": "{{ex. Disponible immédiatement, temps plein, sur site ou à distance}}"
+    },
+    "location": {
+      "en": "Oujda, Morocco",
+      "fr": "Oujda, Maroc"
+    },
+    "email": "{{EMAIL}}",
+    "phone": "",
+    "photo": "/images/profile.png",
+    "cv": {
+      "en": "/cv/mohamed-el-farssi-cv-en.pdf",
+      "fr": "/cv/mohamed-el-farssi-cv-fr.pdf"
+    },
+    "socials": {
+      "github": "https://github.com/{{GITHUB_USERNAME}}",
+      "linkedin": "{{LINKEDIN_URL}}",
+      "tryhackme": "",
+      "rootme": "",
+      "store": ""
+    },
+    "spokenLanguages": [
+      {
+        "name": {
+          "en": "Arabic",
+          "fr": "Arabe"
+        },
+        "level": {
+          "en": "Native",
+          "fr": "Langue maternelle"
+        }
+      },
+      {
+        "name": {
+          "en": "French",
+          "fr": "Français"
+        },
+        "level": {
+          "en": "{{LEVEL}}",
+          "fr": "{{LEVEL}}"
+        }
+      },
+      {
+        "name": {
+          "en": "English",
+          "fr": "Anglais"
+        },
+        "level": {
+          "en": "{{LEVEL}}",
+          "fr": "{{LEVEL}}"
+        }
+      }
+    ]
+  },
+  "roles": [
+    {
+      "id": "appsec",
+      "level": "primary",
+      "title": {
+        "en": "Application Security / Junior Pentester",
+        "fr": "Sécurité applicative / Pentester junior"
+      },
+      "summary": {
+        "en": "Testing web applications against the OWASP Top 10, with a focus on authentication and session flaws. Reviewing code for security issues and writing clear findings with concrete remediation.",
+        "fr": "Tester des applications web selon l'OWASP Top 10, en particulier les failles d'authentification et de session. Revoir le code sous l'angle sécurité et rédiger des constats clairs avec des corrections concrètes."
+      },
+      "stack": [
+        "OWASP Top 10",
+        "Burp Suite",
+        "Nmap",
+        "Wireshark",
+        "Linux",
+        "Python"
+      ]
+    },
+    {
+      "id": "mobile",
+      "level": "primary",
+      "title": {
+        "en": "Mobile Developer",
+        "fr": "Développeur mobile"
+      },
+      "summary": {
+        "en": "Building and shipping Android and iOS apps with secure storage and authenticated APIs. Release hygiene from signing to permission minimisation, following OWASP MASVS.",
+        "fr": "Concevoir et publier des applications Android et iOS avec stockage sécurisé et API authentifiées. Une publication soignée, de la signature à la réduction des permissions, selon l'OWASP MASVS."
+      },
+      "stack": [
+        "{{Flutter / Kotlin / React Native / Swift}}",
+        "Firebase",
+        "REST APIs",
+        "OWASP MASVS"
+      ]
+    },
+    {
+      "id": "backend",
+      "level": "secondary",
+      "title": {
+        "en": "Back-End Developer",
+        "fr": "Développeur back-end"
+      },
+      "summary": {
+        "en": "Designing REST APIs with JWT authentication on relational and document databases. Comfortable with message queues and service-to-service communication.",
+        "fr": "Concevoir des API REST avec authentification JWT sur des bases relationnelles et documentaires. À l'aise avec les files de messages et la communication entre services."
+      },
+      "stack": [
+        "Java",
+        "Spring Boot",
+        "Go",
+        "Node.js",
+        "PostgreSQL",
+        "MongoDB",
+        "Kafka"
+      ]
+    },
+    {
+      "id": "fullstack",
+      "level": "secondary",
+      "title": {
+        "en": "Full-Stack Developer",
+        "fr": "Développeur full-stack"
+      },
+      "summary": {
+        "en": "Taking a product from an empty repository to a deployed application. Front-end, API, database and containers, delivered as one coherent whole.",
+        "fr": "Mener un produit d'un dépôt vide à une application déployée. Front-end, API, base de données et conteneurs, livrés comme un ensemble cohérent."
+      },
+      "stack": [
+        "Angular",
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Spring Boot",
+        "Docker"
+      ]
+    }
+  ],
+  "skills": {
+    "categories": [
+      {
+        "id": "security",
+        "name": {
+          "en": "Security",
+          "fr": "Sécurité"
+        },
+        "items": [
+          "OWASP Top 10",
+          "OWASP MASVS",
+          "Burp Suite",
+          "Nmap",
+          "Wireshark",
+          "Metasploit",
+          "JWT & session security",
+          "SSH hardening",
+          "UFW / firewalls",
+          "Linux hardening",
+          "{{other tools he really uses}}"
+        ]
+      },
+      {
+        "id": "mobile",
+        "name": {
+          "en": "Mobile",
+          "fr": "Mobile"
+        },
+        "items": [
+          "{{Flutter, Dart, Kotlin, Jetpack Compose, React Native, Swift: keep only real ones}}",
+          "Firebase",
+          "Android Studio"
+        ]
+      },
+      {
+        "id": "languages",
+        "name": {
+          "en": "Languages",
+          "fr": "Langages"
+        },
+        "items": [
+          "Java",
+          "JavaScript",
+          "TypeScript",
+          "Go",
+          "Rust",
+          "Python",
+          "PHP",
+          "Bash"
+        ]
+      },
+      {
+        "id": "backend",
+        "name": {
+          "en": "Back-End",
+          "fr": "Back-end"
+        },
+        "items": [
+          "Spring Boot",
+          "Node.js",
+          "Laravel",
+          "REST",
+          "GraphQL",
+          "WebSocket"
+        ]
+      },
+      {
+        "id": "frontend",
+        "name": {
+          "en": "Front-End",
+          "fr": "Front-end"
+        },
+        "items": [
+          "Angular",
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "id": "databases",
+        "name": {
+          "en": "Databases",
+          "fr": "Bases de données"
+        },
+        "items": [
+          "PostgreSQL",
+          "MySQL",
+          "MongoDB",
+          "SQLite"
+        ]
+      },
+      {
+        "id": "tools",
+        "name": {
+          "en": "Systems & Tools",
+          "fr": "Systèmes & outils"
+        },
+        "items": [
+          "Linux",
+          "Docker",
+          "Git",
+          "Ansible",
+          "RabbitMQ",
+          "Kafka",
+          "Vagrant",
+          "Cisco Packet Tracer",
+          "Postman"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "slug": "mobile-project-1",
+      "title": {
+        "en": "{{App name}}",
+        "fr": "{{Nom de l'app}}"
+      },
+      "summary": {
+        "en": "{{One sentence: what the app does and for whom}}",
+        "fr": "{{Une phrase : ce que fait l'app et pour qui}}"
+      },
+      "description": {
+        "en": "{{2 to 4 sentences: the problem, the solution, the result}}",
+        "fr": "{{2 à 4 phrases : le problème, la solution, le résultat}}"
+      },
+      "highlights": {
+        "en": [
+          "{{What he built}}",
+          "{{What he learned}}",
+          "{{Result, users or downloads}}"
+        ],
+        "fr": [
+          "{{Ce qu'il a construit}}",
+          "{{Ce qu'il a appris}}",
+          "{{Résultat, utilisateurs ou téléchargements}}"
+        ]
+      },
+      "securityNotes": {
+        "en": [
+          "{{Secure storage (Keystore / Keychain / encrypted prefs)}}",
+          "{{Certificate pinning}}",
+          "{{Code obfuscation}}",
+          "{{Permission minimisation}}"
+        ],
+        "fr": [
+          "{{Stockage sécurisé (Keystore / Keychain / prefs chiffrées)}}",
+          "{{Certificate pinning}}",
+          "{{Obfuscation du code}}",
+          "{{Permissions minimales}}"
+        ]
+      },
+      "technologies": [
+        "{{Flutter/Kotlin/...}}"
+      ],
+      "categories": [
+        "mobile",
+        "security"
+      ],
+      "isFeatured": true,
+      "context": "personal",
+      "role": {
+        "en": "{{Solo}}",
+        "fr": "{{Solo}}"
+      },
+      "teamSize": 1,
+      "date": "{{DATE}}",
+      "github": "{{GITHUB_REPO_URL}}",
+      "storeUrl": "{{STORE_LINK_OR_APK_RELEASE}}"
+    },
+    {
+      "slug": "security-project-1",
+      "title": {
+        "en": "{{Security project name}}",
+        "fr": "{{Nom du projet sécurité}}"
+      },
+      "summary": {
+        "en": "{{e.g. CTF write-ups repository, vulnerability scanner, OWASP Juice Shop write-up, home-lab}}",
+        "fr": "{{ex. dépôt de write-ups CTF, scanner de vulnérabilités, write-up OWASP Juice Shop, home-lab}}"
+      },
+      "description": {
+        "en": "{{2 to 4 sentences: scope, method, findings}}",
+        "fr": "{{2 à 4 phrases : périmètre, méthode, résultats}}"
+      },
+      "highlights": {
+        "en": [
+          "{{Methodology}}",
+          "{{Key finding}}",
+          "{{Tooling}}"
+        ],
+        "fr": [
+          "{{Méthodologie}}",
+          "{{Constat clé}}",
+          "{{Outils}}"
+        ]
+      },
+      "technologies": [
+        "{{Tools}}"
+      ],
+      "categories": [
+        "security"
+      ],
+      "isFeatured": true,
+      "context": "personal",
+      "role": {
+        "en": "{{Solo}}",
+        "fr": "{{Solo}}"
+      },
+      "teamSize": 1,
+      "date": "{{DATE}}",
+      "github": "{{GITHUB_REPO_URL}}"
+    },
+    {
+      "slug": "buy-01",
+      "title": {
+        "en": "Buy-01",
+        "fr": "Buy-01"
+      },
+      "summary": {
+        "en": "Microservices e-commerce platform with seller and client roles, built with Spring Boot, Angular and Kafka.",
+        "fr": "Plateforme e-commerce en microservices avec rôles vendeur et client, construite avec Spring Boot, Angular et Kafka."
+      },
+      "description": {
+        "en": "An e-commerce platform split into user, product and media microservices that communicate through Kafka. Sellers manage their products and images, clients browse the catalogue. Every service sits behind JWT authentication and the whole stack runs in Docker.",
+        "fr": "Une plateforme e-commerce découpée en microservices utilisateurs, produits et médias qui communiquent via Kafka. Les vendeurs gèrent leurs produits et leurs images, les clients parcourent le catalogue. Chaque service est protégé par une authentification JWT et l'ensemble tourne sous Docker."
+      },
+      "highlights": {
+        "en": [
+          "Split the domain into user, product and media services with Kafka events between them",
+          "Angular front-end with role-aware routes for sellers and clients",
+          "Each service containerised with Docker Compose for a one-command local setup"
+        ],
+        "fr": [
+          "Découpage du domaine en services utilisateurs, produits et médias reliés par des événements Kafka",
+          "Front-end Angular avec des routes adaptées au rôle vendeur ou client",
+          "Chaque service conteneurisé avec Docker Compose pour un lancement local en une commande"
+        ]
+      },
+      "securityNotes": {
+        "en": [
+          "JWT authentication verified by every service, not only at the edge",
+          "Role-based access control: only a seller can create or edit their own products",
+          "File uploads validated for MIME type and size before storage",
+          "Secrets and connection strings read from environment variables, never committed"
+        ],
+        "fr": [
+          "Authentification JWT vérifiée par chaque service, pas seulement en entrée",
+          "Contrôle d'accès par rôle : seul un vendeur peut créer ou modifier ses propres produits",
+          "Fichiers envoyés validés par type MIME et taille avant stockage",
+          "Secrets et chaînes de connexion lus depuis des variables d'environnement, jamais commités"
+        ]
+      },
+      "technologies": [
+        "Spring Boot",
+        "Angular",
+        "Kafka",
+        "MongoDB",
+        "Docker"
+      ],
+      "categories": [
+        "fullStack",
+        "backEnd",
+        "security"
+      ],
+      "role": {
+        "en": "{{CONFIRM}}",
+        "fr": "{{CONFIRM}}"
+      },
+      "teamSize": "{{CONFIRM}}",
+      "date": "{{CONFIRM}}",
+      "isFeatured": true,
+      "github": "https://github.com/{{GITHUB_USERNAME}}/buy-01",
+      "context": "zone01"
+    },
+    {
+      "slug": "http-server",
+      "title": {
+        "en": "HTTP/1.1 Server",
+        "fr": "Serveur HTTP/1.1"
+      },
+      "summary": {
+        "en": "An HTTP/1.1 server written from scratch in Java with non-blocking I/O.",
+        "fr": "Un serveur HTTP/1.1 écrit de zéro en Java avec des E/S non bloquantes."
+      },
+      "description": {
+        "en": "An HTTP/1.1 server built without frameworks on top of Java NIO. It serves static files, handles uploads and chunked requests, runs CGI scripts and hosts several virtual hosts from a single configuration file.",
+        "fr": "Un serveur HTTP/1.1 construit sans framework sur Java NIO. Il sert des fichiers statiques, gère les envois de fichiers et les requêtes chunked, exécute des scripts CGI et héberge plusieurs hôtes virtuels à partir d'un seul fichier de configuration."
+      },
+      "highlights": {
+        "en": [
+          "Single-threaded event loop built on Java NIO selectors",
+          "Configuration file for ports, virtual hosts, routes, error pages and body size limits",
+          "Load tested to stay available under many concurrent connections"
+        ],
+        "fr": [
+          "Boucle d'événements mono-thread basée sur les sélecteurs Java NIO",
+          "Fichier de configuration pour les ports, hôtes virtuels, routes, pages d'erreur et tailles maximales",
+          "Testé en charge pour rester disponible sous de nombreuses connexions simultanées"
+        ]
+      },
+      "securityNotes": {
+        "en": [
+          "Maximum request body size enforced per route",
+          "Path normalisation blocks directory traversal (../) outside the web root",
+          "Read and idle timeouts against slowloris-style connection exhaustion",
+          "Allowed HTTP methods restricted per route"
+        ],
+        "fr": [
+          "Taille maximale du corps de requête imposée par route",
+          "Normalisation des chemins pour bloquer la traversée de répertoires (../) hors de la racine web",
+          "Délais de lecture et d'inactivité contre l'épuisement de connexions de type slowloris",
+          "Méthodes HTTP autorisées limitées par route"
+        ]
+      },
+      "technologies": [
+        "Java",
+        "Java NIO"
+      ],
+      "categories": [
+        "systems",
+        "backEnd",
+        "security"
+      ],
+      "role": {
+        "en": "{{CONFIRM}}",
+        "fr": "{{CONFIRM}}"
+      },
+      "teamSize": "{{CONFIRM}}",
+      "date": "{{CONFIRM}}",
+      "isFeatured": true,
+      "github": "https://github.com/{{GITHUB_USERNAME}}/http-server",
+      "context": "zone01"
+    },
+    {
+      "slug": "deep-in-system",
+      "title": {
+        "en": "Deep in System: Ubuntu Server Administration",
+        "fr": "Deep in System : administration d'un serveur Ubuntu"
+      },
+      "summary": {
+        "en": "An Ubuntu server installed, hardened and provisioned end to end with Ansible.",
+        "fr": "Un serveur Ubuntu installé, durci et provisionné de bout en bout avec Ansible."
+      },
+      "description": {
+        "en": "Installation and administration of an Ubuntu server: partitions, users, SSH, firewall, FTP, MySQL and a website behind Apache, with scheduled backups. The full configuration is reproducible from a fresh install with Ansible playbooks.",
+        "fr": "Installation et administration d'un serveur Ubuntu : partitions, utilisateurs, SSH, pare-feu, FTP, MySQL et un site web derrière Apache, avec des sauvegardes planifiées. Toute la configuration est reproductible depuis une installation vierge grâce à des playbooks Ansible."
+      },
+      "highlights": {
+        "en": [
+          "Partitions, users and services configured to a precise specification",
+          "Ansible playbooks rebuild the whole server from a fresh install",
+          "Cron jobs for automated database backups with logs"
+        ],
+        "fr": [
+          "Partitions, utilisateurs et services configurés selon un cahier des charges précis",
+          "Des playbooks Ansible reconstruisent tout le serveur depuis une installation vierge",
+          "Tâches cron pour des sauvegardes automatiques de la base avec journalisation"
+        ]
+      },
+      "securityNotes": {
+        "en": [
+          "SSH key-only authentication, root and password logins disabled",
+          "UFW default deny, only the required ports open",
+          "Least-privilege users and groups for each service",
+          "Self-signed TLS on the web server",
+          "Automated backups to recover from data loss"
+        ],
+        "fr": [
+          "Authentification SSH par clé uniquement, connexions root et par mot de passe désactivées",
+          "UFW en refus par défaut, seuls les ports nécessaires ouverts",
+          "Utilisateurs et groupes à privilèges minimaux pour chaque service",
+          "TLS auto-signé sur le serveur web",
+          "Sauvegardes automatiques pour se remettre d'une perte de données"
+        ]
+      },
+      "technologies": [
+        "Linux",
+        "Ansible",
+        "SSH",
+        "UFW",
+        "vsftpd",
+        "MySQL",
+        "Apache",
+        "Cron"
+      ],
+      "categories": [
+        "systems",
+        "security"
+      ],
+      "role": {
+        "en": "{{CONFIRM}}",
+        "fr": "{{CONFIRM}}"
+      },
+      "teamSize": "{{CONFIRM}}",
+      "date": "{{CONFIRM}}",
+      "isFeatured": true,
+      "github": "https://github.com/{{GITHUB_USERNAME}}/deep-in-system",
+      "context": "zone01"
+    },
+    {
+      "slug": "real-time-forum",
+      "title": {
+        "en": "Real-Time Forum",
+        "fr": "Forum temps réel"
+      },
+      "summary": {
+        "en": "Single-page forum with real-time private messages over WebSocket.",
+        "fr": "Forum monopage avec messagerie privée en temps réel via WebSocket."
+      },
+      "description": {
+        "en": "A single-page forum written in Go and vanilla JavaScript. Users register, publish posts, comment and chat privately in real time, with online status and message history loaded on scroll.",
+        "fr": "Un forum monopage écrit en Go et en JavaScript natif. Les utilisateurs s'inscrivent, publient, commentent et discutent en privé en temps réel, avec statut en ligne et historique chargé au défilement."
+      },
+      "highlights": {
+        "en": [
+          "Go back-end with SQLite and WebSocket connections",
+          "Single-page front-end without any framework",
+          "Paginated message history and live online presence"
+        ],
+        "fr": [
+          "Back-end Go avec SQLite et connexions WebSocket",
+          "Front-end monopage sans aucun framework",
+          "Historique des messages paginé et présence en ligne en direct"
+        ]
+      },
+      "securityNotes": {
+        "en": [
+          "Session cookies set with HttpOnly and SameSite",
+          "Passwords hashed with bcrypt",
+          "Parameterised SQL queries everywhere to prevent injection",
+          "WebSocket upgrade allowed only for an authenticated session"
+        ],
+        "fr": [
+          "Cookies de session avec HttpOnly et SameSite",
+          "Mots de passe hachés avec bcrypt",
+          "Requêtes SQL paramétrées partout pour empêcher l'injection",
+          "Passage en WebSocket autorisé uniquement pour une session authentifiée"
+        ]
+      },
+      "technologies": [
+        "Go",
+        "JavaScript",
+        "WebSocket",
+        "SQLite"
+      ],
+      "categories": [
+        "fullStack",
+        "security"
+      ],
+      "role": {
+        "en": "{{CONFIRM}}",
+        "fr": "{{CONFIRM}}"
+      },
+      "teamSize": "{{CONFIRM}}",
+      "date": "{{CONFIRM}}",
+      "isFeatured": true,
+      "github": "https://github.com/{{GITHUB_USERNAME}}/real-time-forum",
+      "context": "zone01"
+    },
+    {
+      "slug": "01blog",
+      "title": {
+        "en": "01Blog",
+        "fr": "01Blog"
+      },
+      "summary": {
+        "en": "Social blogging platform with user and admin roles, content reporting and moderation.",
+        "fr": "Plateforme de blog sociale avec rôles utilisateur et admin, signalement et modération de contenu."
+      },
+      "description": {
+        "en": "A social blogging platform where students share their learning journey, follow each other and react to posts. Users can report content, and admins moderate reports, posts and accounts from a dedicated dashboard.",
+        "fr": "Une plateforme de blog sociale où les étudiants partagent leur parcours d'apprentissage, se suivent et réagissent aux publications. Les utilisateurs peuvent signaler du contenu et les admins modèrent signalements, publications et comptes depuis un tableau de bord dédié."
+      },
+      "highlights": {
+        "en": [
+          "Spring Boot REST API on PostgreSQL with a layered architecture",
+          "Angular front-end with feeds, profiles, subscriptions and notifications",
+          "Admin dashboard to review reports, remove posts and ban accounts"
+        ],
+        "fr": [
+          "API REST Spring Boot sur PostgreSQL avec une architecture en couches",
+          "Front-end Angular avec fils d'actualité, profils, abonnements et notifications",
+          "Tableau de bord admin pour traiter les signalements, retirer des publications et bannir des comptes"
+        ]
+      },
+      "securityNotes": {
+        "en": [
+          "Authentication with hashed passwords and signed tokens",
+          "Role checks on every admin endpoint, enforced server-side",
+          "User content sanitised against stored XSS",
+          "Media uploads restricted by type and size"
+        ],
+        "fr": [
+          "Authentification avec mots de passe hachés et jetons signés",
+          "Vérification du rôle sur chaque endpoint admin, côté serveur",
+          "Contenu utilisateur assaini contre le XSS stocké",
+          "Envoi de médias limité par type et taille"
+        ]
+      },
+      "technologies": [
+        "Spring Boot",
+        "Angular",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "categories": [
+        "fullStack",
+        "security"
+      ],
+      "role": {
+        "en": "{{CONFIRM}}",
+        "fr": "{{CONFIRM}}"
+      },
+      "teamSize": "{{CONFIRM}}",
+      "date": "{{CONFIRM}}",
+      "isFeatured": true,
+      "github": "https://github.com/{{GITHUB_USERNAME}}/01blog",
+      "context": "zone01"
+    },
+    {
+      "slug": "mobile-project-2",
+      "title": {
+        "en": "{{App name}}",
+        "fr": "{{Nom de l'app}}"
+      },
+      "summary": {
+        "en": "{{One sentence: what the app does and for whom}}",
+        "fr": "{{Une phrase : ce que fait l'app et pour qui}}"
+      },
+      "description": {
+        "en": "{{2 to 4 sentences: the problem, the solution, the result}}",
+        "fr": "{{2 à 4 phrases : le problème, la solution, le résultat}}"
+      },
+      "highlights": {
+        "en": [
+          "{{What he built}}",
+          "{{What he learned}}",
+          "{{Result, users or downloads}}"
+        ],
+        "fr": [
+          "{{Ce qu'il a construit}}",
+          "{{Ce qu'il a appris}}",
+          "{{Résultat, utilisateurs ou téléchargements}}"
+        ]
+      },
+      "securityNotes": {
+        "en": [
+          "{{Secure storage (Keystore / Keychain / encrypted prefs)}}",
+          "{{Certificate pinning}}",
+          "{{Code obfuscation}}",
+          "{{Permission minimisation}}"
+        ],
+        "fr": [
+          "{{Stockage sécurisé (Keystore / Keychain / prefs chiffrées)}}",
+          "{{Certificate pinning}}",
+          "{{Obfuscation du code}}",
+          "{{Permissions minimales}}"
+        ]
+      },
+      "technologies": [
+        "{{Flutter/Kotlin/...}}"
+      ],
+      "categories": [
+        "mobile",
+        "security"
+      ],
+      "isFeatured": true,
+      "context": "personal",
+      "role": {
+        "en": "{{Solo}}",
+        "fr": "{{Solo}}"
+      },
+      "teamSize": 1,
+      "date": "{{DATE}}",
+      "github": "{{GITHUB_REPO_URL}}",
+      "storeUrl": "{{STORE_LINK_OR_APK_RELEASE}}"
+    },
+    {
+      "slug": "lets-play",
+      "title": {
+        "en": "Lets-Play",
+        "fr": "Lets-Play"
+      },
+      "summary": {
+        "en": "REST API in Spring Boot and MongoDB with JWT authentication and role-based access.",
+        "fr": "API REST en Spring Boot et MongoDB avec authentification JWT et accès par rôle."
+      },
+      "description": {
+        "en": "A CRUD API for users and products built with Spring Boot and MongoDB. Admins manage every resource while regular users manage only their own products.",
+        "fr": "Une API CRUD pour les utilisateurs et les produits construite avec Spring Boot et MongoDB. Les admins gèrent toutes les ressources, les utilisateurs uniquement leurs propres produits."
+      },
+      "highlights": {
+        "en": [
+          "RESTful endpoints with consistent HTTP status codes and error bodies",
+          "Ownership rules enforced in the service layer",
+          "MongoDB repositories with Spring Data"
+        ],
+        "fr": [
+          "Endpoints REST avec codes HTTP et corps d'erreur cohérents",
+          "Règles de propriété appliquées dans la couche service",
+          "Repositories MongoDB avec Spring Data"
+        ]
+      },
+      "securityNotes": {
+        "en": [
+          "Passwords hashed with BCrypt and never returned by the API",
+          "JWT authentication with admin and user roles",
+          "Validation on every request body",
+          "Sensitive fields excluded from responses"
+        ],
+        "fr": [
+          "Mots de passe hachés avec BCrypt et jamais renvoyés par l'API",
+          "Authentification JWT avec rôles admin et utilisateur",
+          "Validation de chaque corps de requête",
+          "Champs sensibles exclus des réponses"
+        ]
+      },
+      "technologies": [
+        "Spring Boot",
+        "MongoDB",
+        "JWT"
+      ],
+      "categories": [
+        "backEnd",
+        "security"
+      ],
+      "role": {
+        "en": "{{CONFIRM}}",
+        "fr": "{{CONFIRM}}"
+      },
+      "teamSize": "{{CONFIRM}}",
+      "date": "{{CONFIRM}}",
+      "isFeatured": false,
+      "github": "https://github.com/{{GITHUB_USERNAME}}/lets-play",
+      "context": "zone01"
+    },
+    {
+      "slug": "angul-it",
+      "title": {
+        "en": "Angul-It",
+        "fr": "Angul-It"
+      },
+      "summary": {
+        "en": "Multi-stage CAPTCHA challenge built with Angular.",
+        "fr": "Défi CAPTCHA en plusieurs étapes construit avec Angular."
+      },
+      "description": {
+        "en": "A multi-step CAPTCHA application: users solve a sequence of challenges such as image selection, maths and text before reaching a results page. Progress survives page reloads.",
+        "fr": "Une application CAPTCHA en plusieurs étapes : l'utilisateur résout une série de défis (sélection d'images, calcul, texte) avant d'atteindre la page de résultats. La progression résiste au rechargement."
+      },
+      "highlights": {
+        "en": [
+          "Reactive forms with validation for each stage",
+          "State restored after a refresh",
+          "Responsive Angular Material interface"
+        ],
+        "fr": [
+          "Formulaires réactifs avec validation à chaque étape",
+          "État restauré après un rechargement",
+          "Interface Angular Material responsive"
+        ]
+      },
+      "securityNotes": {
+        "en": [
+          "Route guards prevent skipping stages or opening the results page directly",
+          "Stored state checked for consistency to resist tampering",
+          "Randomised challenges make scripted answers harder"
+        ],
+        "fr": [
+          "Des guards de route empêchent de sauter une étape ou d'ouvrir directement les résultats",
+          "État stocké vérifié pour résister aux modifications",
+          "Défis aléatoires pour compliquer les réponses automatisées"
+        ]
+      },
+      "technologies": [
+        "Angular",
+        "TypeScript",
+        "Angular Material"
+      ],
+      "categories": [
+        "frontEnd",
+        "security"
+      ],
+      "role": {
+        "en": "{{CONFIRM}}",
+        "fr": "{{CONFIRM}}"
+      },
+      "teamSize": "{{CONFIRM}}",
+      "date": "{{CONFIRM}}",
+      "isFeatured": false,
+      "github": "https://github.com/{{GITHUB_USERNAME}}/angul-it",
+      "context": "zone01"
+    },
+    {
+      "slug": "social-network",
+      "title": {
+        "en": "Social Network",
+        "fr": "Réseau social"
+      },
+      "summary": {
+        "en": "Facebook-like social network with groups, events and real-time chat.",
+        "fr": "Réseau social inspiré de Facebook avec groupes, événements et chat en temps réel."
+      },
+      "description": {
+        "en": "A social network with public and private profiles, posts, followers, groups, events, notifications and private or group chat. Next.js on the front-end, a Go API with database migrations and WebSockets on the back-end.",
+        "fr": "Un réseau social avec profils publics et privés, publications, abonnés, groupes, événements, notifications et chat privé ou de groupe. Next.js côté front-end, une API Go avec migrations et WebSockets côté back-end."
+      },
+      "highlights": {
+        "en": [
+          "Follow requests for private profiles",
+          "Groups with invitations, events and group chat",
+          "Front-end and back-end shipped as separate containers"
+        ],
+        "fr": [
+          "Demandes d'abonnement pour les profils privés",
+          "Groupes avec invitations, événements et chat de groupe",
+          "Front-end et back-end livrés dans des conteneurs séparés"
+        ]
+      },
+      "securityNotes": {
+        "en": [
+          "Authorisation checked on every resource, not only in the interface",
+          "Private posts visible only to the selected followers",
+          "Session cookies and hashed passwords"
+        ],
+        "fr": [
+          "Autorisation vérifiée sur chaque ressource, pas seulement dans l'interface",
+          "Publications privées visibles uniquement par les abonnés choisis",
+          "Cookies de session et mots de passe hachés"
+        ]
+      },
+      "technologies": [
+        "Next.js",
+        "Go",
+        "WebSocket"
+      ],
+      "categories": [
+        "fullStack"
+      ],
+      "role": {
+        "en": "{{CONFIRM}}",
+        "fr": "{{CONFIRM}}"
+      },
+      "teamSize": "{{CONFIRM}}",
+      "date": "{{CONFIRM}}",
+      "isFeatured": false,
+      "github": "https://github.com/{{GITHUB_USERNAME}}/social-network",
+      "context": "zone01"
+    },
+    {
+      "slug": "graphql-profile",
+      "title": {
+        "en": "GraphQL Profile",
+        "fr": "Profil GraphQL"
+      },
+      "summary": {
+        "en": "Personal dashboard built on the school GraphQL API with hand-drawn SVG charts.",
+        "fr": "Tableau de bord personnel construit sur l'API GraphQL de l'école avec des graphiques SVG faits main."
+      },
+      "description": {
+        "en": "A profile page that signs in against the school API, then queries GraphQL for XP, audits and progress, displayed with SVG charts drawn without a charting library.",
+        "fr": "Une page de profil qui s'authentifie auprès de l'API de l'école, puis interroge GraphQL pour l'XP, les audits et la progression, affichés avec des graphiques SVG sans bibliothèque."
+      },
+      "highlights": {
+        "en": [
+          "GraphQL queries with nesting, arguments and filters",
+          "Interactive SVG charts built from scratch",
+          "Deployed as a static site"
+        ],
+        "fr": [
+          "Requêtes GraphQL avec imbrication, arguments et filtres",
+          "Graphiques SVG interactifs construits de zéro",
+          "Déployé en site statique"
+        ]
+      },
+      "securityNotes": {
+        "en": [
+          "JWT obtained through a Basic auth login and sent as a Bearer token",
+          "Token storage trade-offs weighed: memory, localStorage or cookie",
+          "Logout clears the token and all cached data"
+        ],
+        "fr": [
+          "JWT obtenu via une connexion Basic auth et envoyé en Bearer",
+          "Compromis de stockage du jeton évalués : mémoire, localStorage ou cookie",
+          "La déconnexion efface le jeton et toutes les données en cache"
+        ]
+      },
+      "technologies": [
+        "JavaScript",
+        "GraphQL",
+        "JWT"
+      ],
+      "categories": [
+        "frontEnd",
+        "security"
+      ],
+      "role": {
+        "en": "{{CONFIRM}}",
+        "fr": "{{CONFIRM}}"
+      },
+      "teamSize": "{{CONFIRM}}",
+      "date": "{{CONFIRM}}",
+      "isFeatured": false,
+      "github": "https://github.com/{{GITHUB_USERNAME}}/graphql-profile",
+      "context": "zone01"
+    },
+    {
+      "slug": "crud-master",
+      "title": {
+        "en": "CRUD Master: Microservices with an API Gateway",
+        "fr": "CRUD Master : microservices et API Gateway"
+      },
+      "summary": {
+        "en": "Inventory and billing microservices behind an API gateway, with a queue for resilience.",
+        "fr": "Microservices d'inventaire et de facturation derrière une API Gateway, avec une file pour la résilience."
+      },
+      "description": {
+        "en": "Two Flask microservices, inventory and billing, behind an API gateway, each running in its own Vagrant virtual machine. Billing requests go through RabbitMQ so orders are not lost while the billing service is down.",
+        "fr": "Deux microservices Flask, inventaire et facturation, derrière une API Gateway, chacun dans sa propre machine virtuelle Vagrant. Les demandes de facturation passent par RabbitMQ pour ne perdre aucune commande quand le service est arrêté."
+      },
+      "highlights": {
+        "en": [
+          "API gateway routing to services on a private network",
+          "Queue-based billing that resumes after downtime",
+          "OpenAPI documentation for every endpoint"
+        ],
+        "fr": [
+          "API Gateway qui route vers des services sur un réseau privé",
+          "Facturation par file de messages qui reprend après une panne",
+          "Documentation OpenAPI pour chaque endpoint"
+        ]
+      },
+      "securityNotes": {
+        "en": [
+          "Credentials kept in .env files, never in code",
+          "Only the gateway is exposed, services stay on the private network"
+        ],
+        "fr": [
+          "Identifiants conservés dans des fichiers .env, jamais dans le code",
+          "Seule la gateway est exposée, les services restent sur le réseau privé"
+        ]
+      },
+      "technologies": [
+        "Python",
+        "Flask",
+        "PostgreSQL",
+        "RabbitMQ",
+        "Vagrant"
+      ],
+      "categories": [
+        "backEnd",
+        "systems"
+      ],
+      "role": {
+        "en": "{{CONFIRM}}",
+        "fr": "{{CONFIRM}}"
+      },
+      "teamSize": "{{CONFIRM}}",
+      "date": "{{CONFIRM}}",
+      "isFeatured": false,
+      "github": "https://github.com/{{GITHUB_USERNAME}}/crud-master",
+      "context": "zone01"
+    },
+    {
+      "slug": "deep-in-networking",
+      "title": {
+        "en": "Deep in Networking",
+        "fr": "Deep in Networking"
+      },
+      "summary": {
+        "en": "Network labs in Cisco Packet Tracer covering subnetting, routing, switching and VLANs.",
+        "fr": "Labs réseau sous Cisco Packet Tracer : sous-réseaux, routage, commutation et VLAN."
+      },
+      "description": {
+        "en": "A series of network labs designing and configuring topologies in Cisco Packet Tracer: IP addressing and subnetting, static and dynamic routing, switching and VLANs.",
+        "fr": "Une série de labs réseau pour concevoir et configurer des topologies sous Cisco Packet Tracer : adressage IP et sous-réseaux, routage statique et dynamique, commutation et VLAN."
+      },
+      "highlights": {
+        "en": [
+          "Subnetting plans for multi-site topologies",
+          "Router and switch configuration through the Cisco CLI",
+          "Troubleshooting connectivity layer by layer"
+        ],
+        "fr": [
+          "Plans d'adressage pour des topologies multi-sites",
+          "Configuration des routeurs et commutateurs en CLI Cisco",
+          "Diagnostic de connectivité couche par couche"
+        ]
+      },
+      "securityNotes": {
+        "en": [
+          "VLAN segmentation isolates traffic between departments",
+          "Network segmentation used as a security control"
+        ],
+        "fr": [
+          "La segmentation en VLAN isole le trafic entre services",
+          "Segmentation réseau utilisée comme mesure de sécurité"
+        ]
+      },
+      "technologies": [
+        "Cisco Packet Tracer"
+      ],
+      "categories": [
+        "systems",
+        "security"
+      ],
+      "role": {
+        "en": "{{CONFIRM}}",
+        "fr": "{{CONFIRM}}"
+      },
+      "teamSize": "{{CONFIRM}}",
+      "date": "{{CONFIRM}}",
+      "isFeatured": false,
+      "github": "https://github.com/{{GITHUB_USERNAME}}/deep-in-networking",
+      "context": "zone01"
+    },
+    {
+      "slug": "0-shell",
+      "title": {
+        "en": "0-Shell",
+        "fr": "0-Shell"
+      },
+      "summary": {
+        "en": "Minimal Unix shell written in Rust.",
+        "fr": "Shell Unix minimal écrit en Rust."
+      },
+      "description": {
+        "en": "A minimalist shell implementing core commands such as echo, cd, ls, pwd, cat, cp, rm, mv and mkdir from scratch, without calling external binaries.",
+        "fr": "Un shell minimaliste qui implémente de zéro les commandes de base comme echo, cd, ls, pwd, cat, cp, rm, mv et mkdir, sans appeler de binaires externes."
+      },
+      "highlights": {
+        "en": [
+          "Built-ins implemented with the Rust standard library",
+          "ls with the -l, -a and -F flags",
+          "Memory safety by design thanks to Rust ownership and borrowing"
+        ],
+        "fr": [
+          "Commandes intégrées implémentées avec la bibliothèque standard Rust",
+          "ls avec les options -l, -a et -F",
+          "Sûreté mémoire par conception grâce à l'ownership et au borrowing de Rust"
+        ]
+      },
+      "technologies": [
+        "Rust"
+      ],
+      "categories": [
+        "systems"
+      ],
+      "role": {
+        "en": "{{CONFIRM}}",
+        "fr": "{{CONFIRM}}"
+      },
+      "teamSize": "{{CONFIRM}}",
+      "date": "{{CONFIRM}}",
+      "isFeatured": false,
+      "github": "https://github.com/{{GITHUB_USERNAME}}/0-shell",
+      "context": "zone01"
+    },
+    {
+      "slug": "wget",
+      "title": {
+        "en": "WGET",
+        "fr": "WGET"
+      },
+      "summary": {
+        "en": "A wget clone in Java with mirroring, rate limiting and background mode.",
+        "fr": "Un clone de wget en Java avec miroir de site, limitation de débit et mode arrière-plan."
+      },
+      "description": {
+        "en": "A command-line downloader that reproduces core wget features: progress output, custom file names and paths, rate limiting, background downloads, multiple URLs from a file and website mirroring.",
+        "fr": "Un outil de téléchargement en ligne de commande qui reproduit les fonctions principales de wget : progression, nom et chemin personnalisés, limitation de débit, téléchargement en arrière-plan, liste d'URL depuis un fichier et miroir de site."
+      },
+      "highlights": {
+        "en": [
+          "Download rate limiting",
+          "Concurrent downloads from a list of URLs",
+          "Website mirroring with link conversion"
+        ],
+        "fr": [
+          "Limitation du débit de téléchargement",
+          "Téléchargements simultanés depuis une liste d'URL",
+          "Miroir de site avec conversion des liens"
+        ]
+      },
+      "technologies": [
+        "Java"
+      ],
+      "categories": [
+        "systems"
+      ],
+      "role": {
+        "en": "{{CONFIRM}}",
+        "fr": "{{CONFIRM}}"
+      },
+      "teamSize": "{{CONFIRM}}",
+      "date": "{{CONFIRM}}",
+      "isFeatured": false,
+      "github": "https://github.com/{{GITHUB_USERNAME}}/wget",
+      "context": "zone01"
+    },
+    {
+      "slug": "backup-manager",
+      "title": {
+        "en": "Backup Manager",
+        "fr": "Backup Manager"
+      },
+      "summary": {
+        "en": "Python command-line tool to schedule and run backups.",
+        "fr": "Outil Python en ligne de commande pour planifier et exécuter des sauvegardes."
+      },
+      "description": {
+        "en": "A command-line tool and background service that schedules, lists and runs backups of directories, with logs of every operation.",
+        "fr": "Un outil en ligne de commande et un service en arrière-plan qui planifient, listent et exécutent des sauvegardes de répertoires, avec un journal de chaque opération."
+      },
+      "highlights": {
+        "en": [
+          "Schedule, list and delete backup jobs from the CLI",
+          "Background service that runs jobs on time",
+          "Integrity checks and logs for every backup"
+        ],
+        "fr": [
+          "Planifier, lister et supprimer des sauvegardes depuis le CLI",
+          "Service en arrière-plan qui lance les tâches à l'heure",
+          "Contrôles d'intégrité et journal pour chaque sauvegarde"
+        ]
+      },
+      "technologies": [
+        "Python"
+      ],
+      "categories": [
+        "systems"
+      ],
+      "role": {
+        "en": "{{CONFIRM}}",
+        "fr": "{{CONFIRM}}"
+      },
+      "teamSize": "{{CONFIRM}}",
+      "date": "{{CONFIRM}}",
+      "isFeatured": false,
+      "github": "https://github.com/{{GITHUB_USERNAME}}/backup-manager",
+      "context": "zone01"
+    },
+    {
+      "slug": "groupie-tracker",
+      "title": {
+        "en": "Groupie Tracker",
+        "fr": "Groupie Tracker"
+      },
+      "summary": {
+        "en": "Go web app that consumes a REST API to display artists and concerts.",
+        "fr": "Application web Go qui consomme une API REST pour afficher artistes et concerts."
+      },
+      "description": {
+        "en": "A Go web application that fetches artists, locations and concert dates from a REST API and presents them with search and filters.",
+        "fr": "Une application web en Go qui récupère artistes, lieux et dates de concerts depuis une API REST et les présente avec recherche et filtres."
+      },
+      "highlights": {
+        "en": [
+          "REST API consumption and data merging in Go",
+          "Server-rendered templates",
+          "Search and filters on artists and dates"
+        ],
+        "fr": [
+          "Consommation d'API REST et fusion des données en Go",
+          "Templates rendus côté serveur",
+          "Recherche et filtres sur les artistes et les dates"
+        ]
+      },
+      "technologies": [
+        "Go",
+        "REST API"
+      ],
+      "categories": [
+        "fullStack"
+      ],
+      "role": {
+        "en": "{{CONFIRM}}",
+        "fr": "{{CONFIRM}}"
+      },
+      "teamSize": "{{CONFIRM}}",
+      "date": "{{CONFIRM}}",
+      "isFeatured": false,
+      "github": "https://github.com/{{GITHUB_USERNAME}}/groupie-tracker",
+      "context": "zone01"
+    },
+    {
+      "slug": "go-web-forum",
+      "title": {
+        "en": "Go Web Forum",
+        "fr": "Forum web en Go"
+      },
+      "summary": {
+        "en": "Forum with authentication, categories and likes, written in Go.",
+        "fr": "Forum avec authentification, catégories et likes, écrit en Go."
+      },
+      "description": {
+        "en": "A web forum where registered users create posts in categories, comment and like or dislike content. Guests can read, and posts can be filtered by category, author or likes.",
+        "fr": "Un forum web où les utilisateurs inscrits publient dans des catégories, commentent et aiment ou non les contenus. Les visiteurs peuvent lire, et les publications se filtrent par catégorie, auteur ou likes."
+      },
+      "highlights": {
+        "en": [
+          "Session-based authentication",
+          "SQLite schema for users, posts, comments and reactions",
+          "Docker image for deployment"
+        ],
+        "fr": [
+          "Authentification par session",
+          "Schéma SQLite pour utilisateurs, publications, commentaires et réactions",
+          "Image Docker pour le déploiement"
+        ]
+      },
+      "technologies": [
+        "Go",
+        "SQLite",
+        "JavaScript"
+      ],
+      "categories": [
+        "fullStack"
+      ],
+      "role": {
+        "en": "{{CONFIRM}}",
+        "fr": "{{CONFIRM}}"
+      },
+      "teamSize": "{{CONFIRM}}",
+      "date": "{{CONFIRM}}",
+      "isFeatured": false,
+      "github": "https://github.com/{{GITHUB_USERNAME}}/go-web-forum",
+      "context": "zone01"
+    },
+    {
+      "slug": "make-your-game",
+      "title": {
+        "en": "Make Your Game",
+        "fr": "Make Your Game"
+      },
+      "summary": {
+        "en": "A 60 FPS Space Invaders style game using only the DOM.",
+        "fr": "Un jeu façon Space Invaders à 60 FPS uniquement avec le DOM."
+      },
+      "description": {
+        "en": "A browser game inspired by Space Invaders, written in plain JavaScript with DOM elements only, no canvas and no framework, running at a steady 60 frames per second.",
+        "fr": "Un jeu navigateur inspiré de Space Invaders, écrit en JavaScript natif avec uniquement des éléments DOM, sans canvas ni framework, à 60 images par seconde stables."
+      },
+      "highlights": {
+        "en": [
+          "requestAnimationFrame game loop without frame drops",
+          "Pause menu, score, timer and lives",
+          "Performance profiling to avoid layout thrashing"
+        ],
+        "fr": [
+          "Boucle de jeu requestAnimationFrame sans chute d'images",
+          "Menu pause, score, chronomètre et vies",
+          "Profilage des performances pour éviter les recalculs de mise en page"
+        ]
+      },
+      "technologies": [
+        "JavaScript"
+      ],
+      "categories": [
+        "frontEnd"
+      ],
+      "role": {
+        "en": "{{CONFIRM}}",
+        "fr": "{{CONFIRM}}"
+      },
+      "teamSize": "{{CONFIRM}}",
+      "date": "{{CONFIRM}}",
+      "isFeatured": false,
+      "github": "https://github.com/{{GITHUB_USERNAME}}/make-your-game",
+      "context": "zone01"
+    },
+    {
+      "slug": "ascii-art-web",
+      "title": {
+        "en": "ASCII Art Web",
+        "fr": "ASCII Art Web"
+      },
+      "summary": {
+        "en": "Go web app that turns text into ASCII art.",
+        "fr": "Application web Go qui transforme du texte en art ASCII."
+      },
+      "description": {
+        "en": "A Go web server that converts user text into ASCII art with several banner styles, with input validation and correct HTTP status codes.",
+        "fr": "Un serveur web Go qui convertit le texte de l'utilisateur en art ASCII selon plusieurs styles, avec validation des entrées et codes HTTP corrects."
+      },
+      "highlights": {
+        "en": [
+          "HTTP handlers and templates in the Go standard library",
+          "Several banner fonts",
+          "Proper 400, 404 and 500 responses"
+        ],
+        "fr": [
+          "Handlers HTTP et templates avec la bibliothèque standard Go",
+          "Plusieurs polices de bannière",
+          "Réponses 400, 404 et 500 correctes"
+        ]
+      },
+      "technologies": [
+        "Go"
+      ],
+      "categories": [
+        "frontEnd"
+      ],
+      "role": {
+        "en": "{{CONFIRM}}",
+        "fr": "{{CONFIRM}}"
+      },
+      "teamSize": "{{CONFIRM}}",
+      "date": "{{CONFIRM}}",
+      "isFeatured": false,
+      "github": "https://github.com/{{GITHUB_USERNAME}}/ascii-art-web",
+      "context": "zone01"
+    }
+  ],
+  "education": [
+    {
+      "title": {
+        "en": "Full-Stack Developer, Software Engineering Program",
+        "fr": "Développeur Full-Stack, programme d'ingénierie logicielle"
+      },
+      "school": {
+        "en": "Zone01 Oujda, Morocco",
+        "fr": "Zone01 Oujda, Maroc"
+      },
+      "dateStart": "2024-04",
+      "dateEnd": "2025-12",
+      "description": {
+        "en": "Peer-to-peer, project-based curriculum (01 Edu).",
+        "fr": "Cursus pair-à-pair basé sur des projets (01 Edu)."
+      },
+      "bullets": {
+        "en": [
+          "Built full-stack applications in Java, JavaScript, Go and Rust",
+          "Back-end services with Spring Boot and PostgreSQL",
+          "Front-ends with Angular and Next.js",
+          "Systems projects: Unix shell, HTTP server, networking",
+          "Agile team delivery and peer code reviews",
+          "Applied authentication, input validation and access-control best practices across projects"
+        ],
+        "fr": [
+          "Applications full-stack en Java, JavaScript, Go et Rust",
+          "Services back-end avec Spring Boot et PostgreSQL",
+          "Front-ends avec Angular et Next.js",
+          "Projets systèmes : shell Unix, serveur HTTP, réseau",
+          "Livraison agile en équipe et revues de code entre pairs",
+          "Bonnes pratiques d'authentification, de validation des entrées et de contrôle d'accès appliquées dans tous les projets"
+        ]
+      }
+    },
+    {
+      "title": {
+        "en": "Specialized Technician Diploma in Digital Development, Full-Stack Web option (Bac+2)",
+        "fr": "Diplôme de Technicien Spécialisé en Développement Digital, option Web Full-Stack (Bac+2)"
+      },
+      "school": {
+        "en": "ISTA Berkane, Morocco",
+        "fr": "ISTA Berkane, Maroc"
+      },
+      "dateStart": "2021-09",
+      "dateEnd": "2023-09",
+      "description": {
+        "en": "Two-year professional diploma in web development.",
+        "fr": "Diplôme professionnel de deux ans en développement web."
+      },
+      "bullets": {
+        "en": [
+          "Web applications with Python, PHP, JavaScript and Laravel",
+          "Data modelling with MySQL and MongoDB",
+          "React user interfaces",
+          "UML modelling and project management with Jira"
+        ],
+        "fr": [
+          "Applications web avec Python, PHP, JavaScript et Laravel",
+          "Modélisation de données avec MySQL et MongoDB",
+          "Interfaces utilisateur en React",
+          "Modélisation UML et gestion de projet avec Jira"
+        ]
+      }
+    },
+    {
+      "title": {
+        "en": "Entrepreneurship & Innovation Program (PIE)",
+        "fr": "Programme Entrepreneuriat & Innovation (PIE)"
+      },
+      "school": {
+        "en": "ISTA Berkane, Morocco",
+        "fr": "ISTA Berkane, Maroc"
+      },
+      "dateStart": "2021-09",
+      "dateEnd": "2023-09",
+      "description": {
+        "en": "Program run alongside the diploma.",
+        "fr": "Programme suivi en parallèle du diplôme."
+      },
+      "bullets": {
+        "en": [
+          "Ideation, business planning and market analysis",
+          "Pitching projects to mentors",
+          "Teamwork and leadership"
+        ],
+        "fr": [
+          "Idéation, business plan et analyse de marché",
+          "Présentation de projets devant des mentors",
+          "Travail d'équipe et leadership"
+        ]
+      }
+    },
+    {
+      "title": {
+        "en": "{{Security or mobile certification track, e.g. Cisco CCNA / Google Cybersecurity / TryHackMe paths}}",
+        "fr": "{{Parcours de certification sécurité ou mobile}}"
+      },
+      "school": {
+        "en": "{{ISSUER}}",
+        "fr": "{{ISSUER}}"
+      },
+      "dateStart": "{{DATE}}",
+      "dateEnd": "{{DATE}}",
+      "description": {
+        "en": "{{One sentence about the track}}",
+        "fr": "{{Une phrase sur le parcours}}"
+      },
+      "bullets": {
+        "en": [],
+        "fr": []
+      }
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert-1",
+      "name": {
+        "en": "{{CERT_NAME}} (e.g. PCAP: Python Essentials, OpenEDG / Cisco NetAcad)",
+        "fr": "{{CERT_NAME}} (ex. PCAP : Python Essentials, OpenEDG / Cisco NetAcad)"
+      },
+      "issuer": "{{ISSUER}}",
+      "date": "{{DATE}}",
+      "description": {
+        "en": "{{One sentence: what it proves}}",
+        "fr": "{{Une phrase : ce que cela prouve}}"
+      },
+      "image": "",
+      "credentialUrl": "{{CREDENTIAL_URL}}"
+    },
+    {
+      "id": "cert-2",
+      "name": {
+        "en": "{{CERT_NAME}} (e.g. TryHackMe / Root-Me / HTB rank)",
+        "fr": "{{CERT_NAME}} (ex. rang TryHackMe / Root-Me / HTB)"
+      },
+      "issuer": "{{ISSUER}}",
+      "date": "{{DATE}}",
+      "description": {
+        "en": "{{One sentence: what it proves}}",
+        "fr": "{{Une phrase : ce que cela prouve}}"
+      },
+      "image": "",
+      "credentialUrl": "{{CREDENTIAL_URL}}"
+    },
+    {
+      "id": "cert-3",
+      "name": {
+        "en": "{{CERT_NAME}} (e.g. hackathon placement)",
+        "fr": "{{CERT_NAME}} (ex. classement en hackathon)"
+      },
+      "issuer": "{{ISSUER}}",
+      "date": "{{DATE}}",
+      "description": {
+        "en": "{{One sentence: what it proves}}",
+        "fr": "{{Une phrase : ce que cela prouve}}"
+      },
+      "image": "",
+      "credentialUrl": "{{CREDENTIAL_URL}}"
+    },
+    {
+      "id": "cert-4",
+      "name": {
+        "en": "{{CERT_NAME}} (e.g. cybersecurity course certificate)",
+        "fr": "{{CERT_NAME}} (ex. certificat de cours en cybersécurité)"
+      },
+      "issuer": "{{ISSUER}}",
+      "date": "{{DATE}}",
+      "description": {
+        "en": "{{One sentence: what it proves}}",
+        "fr": "{{Une phrase : ce que cela prouve}}"
+      },
+      "image": "",
+      "credentialUrl": "{{CREDENTIAL_URL}}"
+    }
+  ],
+  "volunteering": [],
+  "experience": []
+}
