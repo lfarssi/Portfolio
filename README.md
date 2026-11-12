@@ -2,7 +2,7 @@
 
 Bilingual (English / French) portfolio of **Mohamed El Farssi**, junior Cybersecurity & Mobile Developer trained at Zone01 Oujda.
 
-- **Live:** `https://{{DOMAIN}}`
+- **Live:** https://mohamed-el-farssi.vercel.app (mock URL, set the real one in `lib/site-config.ts`)
 - **Screenshot:** `{{ADD_SCREENSHOT: docs/screenshot.png}}`
 
 ## Stack
@@ -10,7 +10,7 @@ Bilingual (English / French) portfolio of **Mohamed El Farssi**, junior Cybersec
 - Next.js 16 (App Router, React Server Components), React 19, TypeScript `strict`
 - Tailwind CSS v4 with CSS variable tokens, shadcn/ui on Radix primitives, lucide-react icons
 - next-themes (light / dark / system), Inter + JetBrains Mono through `next/font` (self-hosted)
-- zod for content, environment and form validation
+- zod for content and form validation
 - EmailJS REST API for the contact form, called from a server action
 - @vercel/analytics (cookieless), deployed on Vercel
 - pnpm only, every dependency pinned to an exact version
@@ -21,7 +21,7 @@ Bilingual (English / French) portfolio of **Mohamed El Farssi**, junior Cybersec
 - `/projects` gallery with category tabs, text search on title and technologies, newest first. Filters live in the query string (`/projects?category=security&q=go`).
 - `/projects/[slug]` detail pages: highlights, a "Security considerations" panel, tech list, the GitHub README rendered and sanitised, previous / next navigation, per-project Open Graph image.
 - English / French UI and content. The locale is stored in a cookie (falling back to `Accept-Language`) and reflected in `<html lang>`.
-- "Download CV" picks the PDF for the current language, falls back to the other language, and shows a disabled "CV coming soon" state if no PDF exists.
+- "Download CV" downloads the PDF for the current language.
 - SEO: per-page metadata, canonical URLs, Open Graph / Twitter cards, `Person` and `SoftwareSourceCode` JSON-LD, sitemap, robots, web manifest, monogram icons.
 - Accessibility: skip link, landmarks, one `h1` per page, visible focus rings, labelled icon buttons, keyboard-friendly sheet menu, `prefers-reduced-motion` respected, palette contrast at least 4.5:1 in both themes.
 
@@ -32,7 +32,7 @@ The site is part of the portfolio, so it is hardened like a production app.
 - **Strict CSP with per-request nonces** (`proxy.ts`, the Next.js 16 name for `middleware.ts`): `script-src 'self' 'nonce-…' 'strict-dynamic'`, no `unsafe-eval`, no `unsafe-inline` for scripts, `object-src 'none'`, `base-uri 'self'`, `form-action 'self'`, `frame-ancestors 'none'`. Image sources are limited to self and GitHub content hosts.
 - **Static headers** (`next.config.ts`): HSTS with preload (2 years), `X-Content-Type-Options: nosniff`, `Referrer-Policy: strict-origin-when-cross-origin`, `X-Frame-Options: DENY`, `Permissions-Policy` disabling camera, microphone, geolocation and more, `Cross-Origin-Opener-Policy: same-origin`, no `X-Powered-By`.
 - Target grade: **A+ on [securityheaders.com](https://securityheaders.com)**. Check it after deploying.
-- **Contact form hardening:** shared zod schema validated on the client and again on the server, hidden honeypot field, minimum time-to-submit check, max lengths on every field, output rendered only as text. EmailJS keys are server-only and never reach the browser.
+- **Contact form hardening:** shared zod schema validated on the client and again on the server, hidden honeypot field, minimum time-to-submit check, max lengths on every field, output rendered only as text. EmailJS is called from the server, never from the browser.
 - **README rendering:** `react-markdown` + `rehype-sanitize`, external links get `rel="noopener noreferrer nofollow"`, images outside GitHub hosts are dropped.
 - **No tracking** beyond cookieless Vercel Analytics. No IP logging, no geolocation, no third-party scripts.
 - `/.well-known/security.txt` (RFC 9116), CI with `pnpm audit --audit-level=high`, Dependabot for npm and GitHub Actions.
@@ -45,11 +45,12 @@ Requirements: Node.js 20.9+ (CI uses Node 24, see `.nvmrc`) and pnpm 10.
 
 ```bash
 pnpm install
-cp .env.example .env.local   # fill in the values
-pnpm dev                     # http://localhost:3000
+pnpm dev      # http://localhost:3000
 ```
 
 Other scripts: `pnpm build`, `pnpm start`, `pnpm lint`, `pnpm typecheck`.
+
+There are no environment variables. The site URL and EmailJS IDs live in [`lib/site-config.ts`](lib/site-config.ts).
 
 ## Editing content
 
@@ -70,36 +71,27 @@ Drop `mohamed-el-farssi-cv-en.pdf` and `mohamed-el-farssi-cv-fr.pdf` into `publi
 
 ## Deploy on Vercel
 
-1. Import the repository in Vercel (framework preset: Next.js, package manager: pnpm).
-2. Set these environment variables (Production and Preview):
-
-| Variable | Value |
-| --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | `https://{{DOMAIN}}` (no trailing slash) |
-| `EMAILJS_SERVICE_ID` | EmailJS > Email Services |
-| `EMAILJS_TEMPLATE_ID` | EmailJS > Email Templates |
-| `EMAILJS_PUBLIC_KEY` | EmailJS > Account > General |
-| `EMAILJS_PRIVATE_KEY` | EmailJS > Account > General |
-
-3. In EmailJS: Account > Security, enable **"Allow EmailJS API for non-browser applications"** (the form sends from the server). The template can use `{{from_name}}`, `{{from_email}}`, `{{reply_to}}`, `{{subject}}` and `{{message}}`.
+1. Import the repository in Vercel (framework preset: Next.js, package manager: pnpm). No environment variables are needed.
+2. Set the real domain in `lib/site-config.ts` (`url`).
+3. Contact form: create an EmailJS service and template, then paste the service ID, template ID and public key into `lib/site-config.ts`. In EmailJS > Account > Security, enable **"Allow EmailJS API for non-browser applications"** (the form sends from the server). The template can use `{{from_name}}`, `{{from_email}}`, `{{reply_to}}`, `{{subject}}` and `{{message}}`. Until the IDs are set, the form tells visitors to email directly.
 4. Enable Web Analytics in the Vercel project.
 5. After the first deploy, run the domain through securityheaders.com and submit the sitemap in Google Search Console.
 
-## Placeholders still to fill
+## Mock data to replace before sharing
 
-| Placeholder | Where |
+These values are **mock data** so the site looks complete. Replace each one with real information.
+
+| Mock value | Where |
 | --- | --- |
-| `{{EMAIL}}` | `data/content.json` (`profile.email`), `public/.well-known/security.txt` |
-| Availability (`{{e.g. Available immediately…}}`, EN + FR) | `data/content.json` (`profile.availability`) |
-| French and English levels (`{{LEVEL}}`) | `data/content.json` (`profile.spokenLanguages`) |
-| `{{DOMAIN}}` | `public/.well-known/security.txt`, this README, `NEXT_PUBLIC_SITE_URL` |
-| CV PDFs (EN + FR) | `public/cv/` |
-| Role and team size (`{{CONFIRM}}`) for every Zone01 project | `data/content.json` (`projects[].role`, `projects[].teamSize`) |
-| Dates for buy-01, deep-in-system, crud-master, wget, make-your-game (`{{CONFIRM}}`) | `data/content.json` (`projects[].date`) |
-| Repository URLs for buy-01, deep-in-system, crud-master, wget, make-your-game (`{{REPO_URL_OR_EMPTY_IF_PRIVATE}}`, use `""` if private) | `data/content.json` (`projects[].github`) |
-| Fourth education entry (security or mobile certification track) | `data/content.json` (`education[3]`), remove it if not applicable |
-| Certifications (`{{CERT_NAME}}`, `{{ISSUER}}`, `{{DATE}}`, `{{CREDENTIAL_URL}}`) | `data/content.json` (`certifications`) |
-| Optional profiles: TryHackMe / Hack The Box, Root-Me, store page, phone | `data/content.json` (`profile.socials`, `profile.phone`), empty means hidden |
+| Email `mohamed.elfarssi@example.com` | `data/content.json` (`profile.email`), `public/.well-known/security.txt` |
+| Site URL `https://mohamed-el-farssi.vercel.app` | `lib/site-config.ts`, `public/.well-known/security.txt` |
+| Availability text (EN + FR) | `data/content.json` (`profile.availability`) |
+| French and English levels (B2) | `data/content.json` (`profile.spokenLanguages`) |
+| Role and team size of every Zone01 project | `data/content.json` (`projects[].role`, `projects[].teamSize`) |
+| Dates of buy-01, deep-in-system, crud-master, wget, make-your-game | `data/content.json` (`projects[].date`) |
+| TryHackMe learning paths (4th education entry) | `data/content.json` (`education[3]`) |
+| All four certifications (PCAP, TryHackMe rank, hackathon, Cisco) | `data/content.json` (`certifications`) |
+| EmailJS IDs (empty) | `lib/site-config.ts` |
 | Screenshot | this README |
 
-Project dates for repositories on GitHub are taken from the repository creation date. Adjust them if a project started earlier.
+Repository links for buy-01, deep-in-system, crud-master, wget and make-your-game are empty (hidden); add them if the repos are public. Optional profiles (TryHackMe / Hack The Box, Root-Me, store page, phone) are empty, which hides them. Project dates for repositories on GitHub are taken from the repository creation date.

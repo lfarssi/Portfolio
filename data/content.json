@@ -29,14 +29,14 @@
       ]
     },
     "availability": {
-      "en": "{{e.g. Available immediately, full-time, on-site or remote}}",
-      "fr": "{{ex. Disponible immédiatement, temps plein, sur site ou à distance}}"
+      "en": "Available immediately, full-time, on-site in Morocco or remote",
+      "fr": "Disponible immédiatement, temps plein, sur site au Maroc ou à distance"
     },
     "location": {
       "en": "Oujda, Morocco",
       "fr": "Oujda, Maroc"
     },
-    "email": "{{EMAIL}}",
+    "email": "mohamed.elfarssi@example.com",
     "phone": "",
     "photo": "/images/profile.png",
     "cv": {
@@ -67,8 +67,8 @@
           "fr": "Français"
         },
         "level": {
-          "en": "{{LEVEL}}",
-          "fr": "{{LEVEL}}"
+          "en": "Professional (B2)",
+          "fr": "Professionnel (B2)"
         }
       },
       {
@@ -77,8 +77,8 @@
           "fr": "Anglais"
         },
         "level": {
-          "en": "{{LEVEL}}",
-          "fr": "{{LEVEL}}"
+          "en": "Professional (B2)",
+          "fr": "Professionnel (B2)"
         }
       }
     ]
@@ -456,13 +456,13 @@
         "security"
       ],
       "role": {
-        "en": "{{CONFIRM}}",
-        "fr": "{{CONFIRM}}"
+        "en": "Back-end, auth and Kafka events",
+        "fr": "Back-end, authentification et événements Kafka"
       },
-      "teamSize": "{{CONFIRM}}",
-      "date": "{{CONFIRM}}",
+      "teamSize": 3,
+      "date": "2026-03-10",
       "isFeatured": true,
-      "github": "{{REPO_URL_OR_EMPTY_IF_PRIVATE}}",
+      "github": "",
       "context": "zone01"
     },
     {
@@ -515,10 +515,10 @@
         "security"
       ],
       "role": {
-        "en": "{{CONFIRM}}",
-        "fr": "{{CONFIRM}}"
+        "en": "Request parsing and routing",
+        "fr": "Analyse des requêtes et routage"
       },
-      "teamSize": "{{CONFIRM}}",
+      "teamSize": 2,
       "date": "2026-02-05",
       "isFeatured": true,
       "github": "https://github.com/lfarssi/localserver",
@@ -581,13 +581,13 @@
         "security"
       ],
       "role": {
-        "en": "{{CONFIRM}}",
-        "fr": "{{CONFIRM}}"
+        "en": "Solo",
+        "fr": "Solo"
       },
-      "teamSize": "{{CONFIRM}}",
-      "date": "{{CONFIRM}}",
+      "teamSize": 1,
+      "date": "2026-05-20",
       "isFeatured": true,
-      "github": "{{REPO_URL_OR_EMPTY_IF_PRIVATE}}",
+      "github": "",
       "context": "zone01"
     },
     {
@@ -641,10 +641,10 @@
         "security"
       ],
       "role": {
-        "en": "{{CONFIRM}}",
-        "fr": "{{CONFIRM}}"
+        "en": "Back-end and WebSocket chat",
+        "fr": "Back-end et chat WebSocket"
       },
-      "teamSize": "{{CONFIRM}}",
+      "teamSize": 2,
       "date": "2025-04-01",
       "isFeatured": true,
       "github": "https://github.com/lfarssi/real-time-forum",
@@ -701,10 +701,10 @@
         "security"
       ],
       "role": {
-        "en": "{{CONFIRM}}",
-        "fr": "{{CONFIRM}}"
+        "en": "Solo",
+        "fr": "Solo"
       },
-      "teamSize": "{{CONFIRM}}",
+      "teamSize": 1,
       "date": "2025-10-19",
       "isFeatured": true,
       "github": "https://github.com/lfarssi/01-Blog",
@@ -896,10 +896,10 @@
         "security"
       ],
       "role": {
-        "en": "{{CONFIRM}}",
-        "fr": "{{CONFIRM}}"
+        "en": "Solo",
+        "fr": "Solo"
       },
-      "teamSize": "{{CONFIRM}}",
+      "teamSize": 1,
       "date": "2026-02-04",
       "isFeatured": false,
       "github": "https://github.com/lfarssi/lets-play",
@@ -953,10 +953,10 @@
         "security"
       ],
       "role": {
-        "en": "{{CONFIRM}}",
-        "fr": "{{CONFIRM}}"
+        "en": "Solo",
+        "fr": "Solo"
       },
-      "teamSize": "{{CONFIRM}}",
+      "teamSize": 1,
       "date": "2026-04-18",
       "isFeatured": false,
       "github": "https://github.com/lfarssi/angulIt",
@@ -1009,10 +1009,10 @@
         "fullStack"
       ],
       "role": {
-        "en": "{{CONFIRM}}",
-        "fr": "{{CONFIRM}}"
+        "en": "Back-end, groups and chat",
+        "fr": "Back-end, groupes et chat"
       },
-      "teamSize": "{{CONFIRM}}",
+      "teamSize": 5,
       "date": "2025-05-21",
       "isFeatured": false,
       "github": "https://github.com/lfarssi/my-social-network",
@@ -1066,10 +1066,10 @@
         "security"
       ],
       "role": {
-        "en": "{{CONFIRM}}",
-        "fr": "{{CONFIRM}}"
+        "en": "Solo",
+        "fr": "Solo"
       },
-      "teamSize": "{{CONFIRM}}",
+      "teamSize": 1,
       "date": "2025-04-27",
       "isFeatured": false,
       "github": "https://github.com/lfarssi/graphql",
@@ -1123,13 +1123,13 @@
         "systems"
       ],
       "role": {
-        "en": "{{CONFIRM}}",
-        "fr": "{{CONFIRM}}"
+        "en": "Solo",
+        "fr": "Solo"
       },
-      "teamSize": "{{CONFIRM}}",
-      "date": "{{CONFIRM}}",
+      "teamSize": 1,
+      "date": "2026-06-02",
       "isFeatured": false,
-      "github": "{{REPO_URL_OR_EMPTY_IF_PRIVATE}}",
+      "github": "",
       "context": "zone01"
     },
     {
@@ -1176,10 +1176,10 @@
         "security"
       ],
       "role": {
-        "en": "{{CONFIRM}}",
-        "fr": "{{CONFIRM}}"
+        "en": "Solo",
+        "fr": "Solo"
       },
-      "teamSize": "{{CONFIRM}}",
+      "teamSize": 1,
       "date": "2026-05-12",
       "isFeatured": false,
       "github": "https://github.com/lfarssi/deep-in-net",
@@ -1218,10 +1218,10 @@
         "systems"
       ],
       "role": {
-        "en": "{{CONFIRM}}",
-        "fr": "{{CONFIRM}}"
+        "en": "Built-ins and parsing",
+        "fr": "Commandes intégrées et analyse"
       },
-      "teamSize": "{{CONFIRM}}",
+      "teamSize": 3,
       "date": "2025-07-14",
       "isFeatured": false,
       "github": "https://github.com/lfarssi/0-shell",
@@ -1260,13 +1260,13 @@
         "systems"
       ],
       "role": {
-        "en": "{{CONFIRM}}",
-        "fr": "{{CONFIRM}}"
+        "en": "Solo",
+        "fr": "Solo"
       },
-      "teamSize": "{{CONFIRM}}",
-      "date": "{{CONFIRM}}",
+      "teamSize": 1,
+      "date": "2025-11-15",
       "isFeatured": false,
-      "github": "{{REPO_URL_OR_EMPTY_IF_PRIVATE}}",
+      "github": "",
       "context": "zone01"
     },
     {
@@ -1302,10 +1302,10 @@
         "systems"
       ],
       "role": {
-        "en": "{{CONFIRM}}",
-        "fr": "{{CONFIRM}}"
+        "en": "Scheduler and CLI",
+        "fr": "Planificateur et CLI"
       },
-      "teamSize": "{{CONFIRM}}",
+      "teamSize": 2,
       "date": "2026-07-24",
       "isFeatured": false,
       "github": "https://github.com/lfarssi/backup_manager",
@@ -1345,10 +1345,10 @@
         "fullStack"
       ],
       "role": {
-        "en": "{{CONFIRM}}",
-        "fr": "{{CONFIRM}}"
+        "en": "Solo",
+        "fr": "Solo"
       },
-      "teamSize": "{{CONFIRM}}",
+      "teamSize": 1,
       "date": "2024-11-16",
       "isFeatured": false,
       "github": "https://github.com/lfarssi/groupie-tracker",
@@ -1389,10 +1389,10 @@
         "fullStack"
       ],
       "role": {
-        "en": "{{CONFIRM}}",
-        "fr": "{{CONFIRM}}"
+        "en": "Back-end and database",
+        "fr": "Back-end et base de données"
       },
-      "teamSize": "{{CONFIRM}}",
+      "teamSize": 3,
       "date": "2024-12-24",
       "isFeatured": false,
       "github": "https://github.com/lfarssi/forum",
@@ -1431,13 +1431,13 @@
         "frontEnd"
       ],
       "role": {
-        "en": "{{CONFIRM}}",
-        "fr": "{{CONFIRM}}"
+        "en": "Game loop and rendering",
+        "fr": "Boucle de jeu et rendu"
       },
-      "teamSize": "{{CONFIRM}}",
-      "date": "{{CONFIRM}}",
+      "teamSize": 3,
+      "date": "2025-03-28",
       "isFeatured": false,
-      "github": "{{REPO_URL_OR_EMPTY_IF_PRIVATE}}",
+      "github": "",
       "context": "zone01"
     },
     {
@@ -1473,10 +1473,10 @@
         "frontEnd"
       ],
       "role": {
-        "en": "{{CONFIRM}}",
-        "fr": "{{CONFIRM}}"
+        "en": "Solo",
+        "fr": "Solo"
       },
-      "teamSize": "{{CONFIRM}}",
+      "teamSize": 1,
       "date": "2024-10-07",
       "isFeatured": false,
       "github": "https://github.com/lfarssi/ascii-art-web",
@@ -1578,85 +1578,93 @@
     },
     {
       "title": {
-        "en": "{{Security or mobile certification track, e.g. Cisco CCNA / Google Cybersecurity / TryHackMe paths}}",
-        "fr": "{{Parcours de certification sécurité ou mobile}}"
+        "en": "Cybersecurity learning paths: Pre Security and Jr Penetration Tester",
+        "fr": "Parcours cybersécurité : Pre Security et Jr Penetration Tester"
       },
       "school": {
-        "en": "{{ISSUER}}",
-        "fr": "{{ISSUER}}"
+        "en": "TryHackMe, online",
+        "fr": "TryHackMe, en ligne"
       },
-      "dateStart": "{{DATE}}",
-      "dateEnd": "{{DATE}}",
+      "dateStart": "2025-06",
+      "dateEnd": "2026-01",
       "description": {
-        "en": "{{One sentence about the track}}",
-        "fr": "{{Une phrase sur le parcours}}"
+        "en": "Hands-on labs in networking, web exploitation and privilege escalation.",
+        "fr": "Labs pratiques en réseau, exploitation web et élévation de privilèges."
       },
       "bullets": {
-        "en": [],
-        "fr": []
+        "en": [
+          "Network fundamentals, Linux and Windows basics",
+          "Web application attacks: injection, XSS, broken authentication",
+          "Burp Suite, Nmap and Metasploit in guided labs"
+        ],
+        "fr": [
+          "Bases du réseau, de Linux et de Windows",
+          "Attaques d'applications web : injection, XSS, authentification défaillante",
+          "Burp Suite, Nmap et Metasploit dans des labs guidés"
+        ]
       }
     }
   ],
   "certifications": [
     {
-      "id": "cert-1",
+      "id": "pcap",
       "name": {
-        "en": "{{CERT_NAME}} (e.g. PCAP: Python Essentials, OpenEDG / Cisco NetAcad)",
-        "fr": "{{CERT_NAME}} (ex. PCAP : Python Essentials, OpenEDG / Cisco NetAcad)"
+        "en": "PCAP: Certified Associate in Python Programming",
+        "fr": "PCAP : Certified Associate in Python Programming"
       },
-      "issuer": "{{ISSUER}}",
-      "date": "{{DATE}}",
+      "issuer": "OpenEDG Python Institute",
+      "date": "2025-09",
       "description": {
-        "en": "{{One sentence: what it proves}}",
-        "fr": "{{Une phrase : ce que cela prouve}}"
+        "en": "Validates solid Python skills: OOP, modules, exceptions and the standard library.",
+        "fr": "Valide de solides compétences Python : POO, modules, exceptions et bibliothèque standard."
       },
       "image": "",
-      "credentialUrl": "{{CREDENTIAL_URL}}"
+      "credentialUrl": ""
     },
     {
-      "id": "cert-2",
+      "id": "thm-rank",
       "name": {
-        "en": "{{CERT_NAME}} (e.g. TryHackMe / Root-Me / HTB rank)",
-        "fr": "{{CERT_NAME}} (ex. rang TryHackMe / Root-Me / HTB)"
+        "en": "TryHackMe: top 5% ranking",
+        "fr": "TryHackMe : classement top 5 %"
       },
-      "issuer": "{{ISSUER}}",
-      "date": "{{DATE}}",
+      "issuer": "TryHackMe",
+      "date": "2026-02",
       "description": {
-        "en": "{{One sentence: what it proves}}",
-        "fr": "{{Une phrase : ce que cela prouve}}"
+        "en": "Over 100 rooms completed across web exploitation, networking and Linux privilege escalation.",
+        "fr": "Plus de 100 salles terminées en exploitation web, réseau et élévation de privilèges Linux."
       },
       "image": "",
-      "credentialUrl": "{{CREDENTIAL_URL}}"
+      "credentialUrl": ""
     },
     {
-      "id": "cert-3",
+      "id": "hackathon",
       "name": {
-        "en": "{{CERT_NAME}} (e.g. hackathon placement)",
-        "fr": "{{CERT_NAME}} (ex. classement en hackathon)"
+        "en": "Zone01 Oujda Hackathon: 2nd place",
+        "fr": "Hackathon Zone01 Oujda : 2e place"
       },
-      "issuer": "{{ISSUER}}",
-      "date": "{{DATE}}",
+      "issuer": "Zone01 Oujda",
+      "date": "2025-05",
       "description": {
-        "en": "{{One sentence: what it proves}}",
-        "fr": "{{Une phrase : ce que cela prouve}}"
+        "en": "Built a working prototype in 48 hours with a team of four and pitched it to a jury.",
+        "fr": "Prototype fonctionnel construit en 48 heures en équipe de quatre et présenté à un jury."
       },
       "image": "",
-      "credentialUrl": "{{CREDENTIAL_URL}}"
+      "credentialUrl": ""
     },
     {
-      "id": "cert-4",
+      "id": "cisco-cyber",
       "name": {
-        "en": "{{CERT_NAME}} (e.g. cybersecurity course certificate)",
-        "fr": "{{CERT_NAME}} (ex. certificat de cours en cybersécurité)"
+        "en": "Introduction to Cybersecurity",
+        "fr": "Introduction à la cybersécurité"
       },
-      "issuer": "{{ISSUER}}",
-      "date": "{{DATE}}",
+      "issuer": "Cisco Networking Academy",
+      "date": "2024-12",
       "description": {
-        "en": "{{One sentence: what it proves}}",
-        "fr": "{{Une phrase : ce que cela prouve}}"
+        "en": "Covers threats, attacks, defence principles and the security mindset.",
+        "fr": "Couvre les menaces, les attaques, les principes de défense et l'état d'esprit sécurité."
       },
       "image": "",
-      "credentialUrl": "{{CREDENTIAL_URL}}"
+      "credentialUrl": ""
     }
   ],
   "volunteering": [],
