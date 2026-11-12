@@ -36,7 +36,7 @@ export function Navigation({ name, initials, cv }: { name: string; initials: str
           : "border-transparent bg-background/40",
       )}
     >
-      <div className="mx-auto flex h-16 w-full max-w-[72rem] items-center justify-between gap-4 px-4 sm:px-6">
+      <div className="mx-auto flex h-14 w-full sm:h-16 max-w-[72rem] items-center justify-between gap-4 px-4 sm:px-6">
         <Link href="/" className="group flex items-center gap-2.5 rounded-md font-semibold" aria-label={`${name}, ${t.nav.home}`}>
           <span
             aria-hidden="true"

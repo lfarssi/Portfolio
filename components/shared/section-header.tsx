@@ -11,7 +11,7 @@ type SectionHeaderProps = {
 
 export function SectionHeader({ id, eyebrow, title, intro, className }: SectionHeaderProps) {
   return (
-    <Reveal className={cn("mb-10 max-w-2xl md:mb-14", className)}>
+    <Reveal className={cn("mb-8 max-w-2xl sm:mb-10 md:mb-14", className)}>
       <p className="flex items-center gap-3 font-mono text-xs font-medium tracking-[0.2em] text-primary uppercase">
         <span aria-hidden="true" className="eyebrow-line" />
         <span>
@@ -19,10 +19,10 @@ export function SectionHeader({ id, eyebrow, title, intro, className }: SectionH
           {eyebrow}
         </span>
       </p>
-      <h2 id={id} className="mt-3 text-[2rem] leading-tight font-bold tracking-tight">
+      <h2 id={id} className="mt-2 text-[1.6rem] leading-tight sm:mt-3 sm:text-[2rem] font-bold tracking-tight">
         {title}
       </h2>
-      {intro ? <p className="mt-3 text-muted-foreground">{intro}</p> : null}
+      {intro ? <p className="mt-2 text-sm text-muted-foreground sm:mt-3 sm:text-base">{intro}</p> : null}
     </Reveal>
   );
 }

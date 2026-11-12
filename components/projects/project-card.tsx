@@ -37,12 +37,12 @@ export function ProjectCard({
         className="aspect-[16/9] border-b"
         sizes="(min-width: 1024px) 368px, (min-width: 640px) 50vw, 100vw"
       />
-      <div className="flex flex-1 flex-col p-5">
+      <div className="flex flex-1 flex-col p-4 sm:p-5">
         <div className="flex flex-wrap items-center gap-2">
           {mainCategory ? <CategoryChip category={mainCategory} t={t} /> : null}
           {isDraft ? <Badge variant="warning">{t.projects.draft}</Badge> : null}
         </div>
-        <Heading className="mt-3 text-lg leading-snug font-semibold">
+        <Heading className="mt-3 text-base leading-snug font-semibold sm:text-lg">
           <Link
             href={`/projects/${project.slug}`}
             className="rounded-sm after:absolute after:inset-0 after:content-[''] group-hover:text-primary"

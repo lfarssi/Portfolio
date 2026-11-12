@@ -14,20 +14,20 @@ export type TimelineEntry = {
 /** Vertical timeline used by Education and Experience. */
 export function Timeline({ entries }: { entries: TimelineEntry[] }) {
   return (
-    <ol className="stagger relative space-y-8 border-l border-border pl-6 md:ml-2 md:pl-10">
+    <ol className="stagger relative space-y-5 sm:space-y-8 border-l border-border pl-6 md:ml-2 md:pl-10">
       {entries.map((entry, index) => (
         <Reveal as="li" key={entry.key} className="relative">
-          <span aria-hidden="true" className="absolute top-6 -left-[1.95rem] size-3.5 md:-left-[2.95rem]">
+          <span aria-hidden="true" className="absolute top-5 -left-[1.95rem] sm:top-6 size-3.5 md:-left-[2.95rem]">
             {index === 0 ? (
               <span className="absolute inset-0 animate-pulse-ring rounded-full bg-primary" />
             ) : null}
             <span className="absolute inset-0 rounded-full border-2 border-primary bg-background" />
           </span>
-          <Card interactive className="p-6">
+          <Card interactive className="p-5 sm:p-6">
             <p className={cn("font-mono text-xs tracking-wider text-primary uppercase", isPlaceholder(entry.period) && "text-danger")}>
               {entry.period}
             </p>
-            <h3 className="mt-2 text-lg leading-snug font-semibold">{entry.title}</h3>
+            <h3 className="mt-2 text-base leading-snug font-semibold sm:text-lg">{entry.title}</h3>
             <p className="mt-1 text-sm font-medium text-muted-foreground">{entry.subtitle}</p>
             {entry.description ? <p className="mt-3 text-sm leading-6">{entry.description}</p> : null}
             {entry.bullets.length > 0 ? (

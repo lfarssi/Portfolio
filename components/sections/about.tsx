@@ -13,10 +13,10 @@ export function About({ locale, t, profile }: SectionProps & { profile: Profile 
       <SectionHeader id="about-title" {...t.sections.about} />
       <div className="grid gap-8 md:grid-cols-[3fr_2fr] md:gap-12">
         <Reveal>
-          <p className="text-lg leading-8">{profile.about[locale]}</p>
+          <p className="text-base leading-7 sm:text-lg sm:leading-8">{profile.about[locale]}</p>
         </Reveal>
         <Reveal>
-          <Card className="p-6">
+          <Card className="p-5 sm:p-6">
             <h3 className="font-mono text-xs font-semibold tracking-[0.2em] text-muted-foreground uppercase">
               {t.sections.whatIBring}
             </h3>

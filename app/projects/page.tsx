@@ -20,16 +20,16 @@ export default async function ProjectsPage() {
   const projects = getProjects();
 
   return (
-    <div className="mx-auto w-full max-w-[72rem] px-4 py-16 sm:px-6 md:py-20">
+    <div className="mx-auto w-full max-w-[72rem] px-4 py-10 sm:px-6 sm:py-16 md:py-20">
       <p className="font-mono text-xs font-medium tracking-[0.2em] text-primary uppercase">
         <span aria-hidden="true">{"// "}</span>
         {t.sections.projects.eyebrow.replace(/^\d+\s*/, "")}
       </p>
-      <h1 className="mt-3 text-[clamp(2rem,4vw,2.75rem)] leading-tight font-bold tracking-tight">
+      <h1 className="mt-3 text-[clamp(1.75rem,4vw,2.75rem)] leading-tight font-bold tracking-tight">
         {t.projects.allProjects}
       </h1>
-      <p className="mt-3 max-w-2xl text-muted-foreground">{t.projects.pageIntro}</p>
-      <div className="mt-10">
+      <p className="mt-3 max-w-2xl text-sm text-muted-foreground sm:text-base">{t.projects.pageIntro}</p>
+      <div className="mt-8 sm:mt-10">
         <Suspense>
           <ProjectFilters
             projects={projects}

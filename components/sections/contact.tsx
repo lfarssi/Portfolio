@@ -38,7 +38,7 @@ export function Contact({ locale, t, profile }: SectionProps & { profile: Profil
     <Section id="contact" muted>
       <SectionHeader id="contact-title" {...t.sections.contact} />
       <div className="grid gap-8 lg:grid-cols-[2fr_3fr]">
-        <Card className="flex flex-col p-6">
+        <Card className="flex flex-col p-5 sm:p-6">
           <h3 className="font-mono text-xs font-semibold tracking-[0.2em] text-muted-foreground uppercase">
             {t.contact.direct}
           </h3>
@@ -68,8 +68,8 @@ export function Contact({ locale, t, profile }: SectionProps & { profile: Profil
           <CvButton cv={profile.cv} download variant="outline" className="mt-8 w-full sm:w-auto lg:mt-auto lg:self-start" />
         </Card>
 
-        <Card className="p-6">
-          <h3 className="mb-5 text-lg font-semibold">{t.contact.formTitle}</h3>
+        <Card className="p-5 sm:p-6">
+          <h3 className="mb-4 text-base font-semibold sm:mb-5 sm:text-lg">{t.contact.formTitle}</h3>
           <ContactForm />
         </Card>
       </div>

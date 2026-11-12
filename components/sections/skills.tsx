@@ -16,7 +16,7 @@ export function Skills({
   return (
     <Section id="skills">
       <SectionHeader id="skills-title" {...t.sections.skills} />
-      <ul className="stagger grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      <ul className="stagger grid gap-4 sm:gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {categories.map((category) => (
           <Reveal as="li" key={category.id}>
             <Card className="h-full p-5">

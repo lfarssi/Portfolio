@@ -11,7 +11,7 @@ export function Section({ id, muted = false, className, children, ...props }: Se
     <section
       id={id}
       aria-labelledby={`${id}-title`}
-      className={cn("py-20 md:py-28", muted && "bg-surface-muted/50", className)}
+      className={cn("py-14 sm:py-20 md:py-28", muted && "bg-surface-muted/50", className)}
       {...props}
     >
       <div className="mx-auto w-full max-w-[72rem] px-4 sm:px-6">{children}</div>

@@ -6,9 +6,9 @@ export function SecurityNotes({ title, notes }: { title: string; notes: string[]
   return (
     <section
       aria-labelledby="security-notes-title"
-      className="rounded-xl border border-primary/40 bg-primary-soft/60 p-6"
+      className="rounded-xl border border-primary/40 bg-primary-soft/60 p-5 sm:p-6"
     >
-      <h2 id="security-notes-title" className="flex items-center gap-2 text-lg font-semibold">
+      <h2 id="security-notes-title" className="flex items-center gap-2 text-base font-semibold sm:text-lg">
         <ShieldCheck className="size-5 text-primary" aria-hidden="true" />
         {title}
       </h2>

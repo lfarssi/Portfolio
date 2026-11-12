@@ -20,7 +20,7 @@ export function Certifications({
   return (
     <Section id="certifications" muted>
       <SectionHeader id="certifications-title" {...t.sections.certifications} />
-      <ul className="stagger grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+      <ul className="stagger grid gap-4 sm:gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {certifications.map((cert) => {
           const credential = usableUrl(cert.credentialUrl);
           const image = usableUrl(cert.image);

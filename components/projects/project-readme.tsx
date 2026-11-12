@@ -62,7 +62,7 @@ export async function ProjectReadme({ readmeUrls, repoUrl, title }: { readmeUrls
   const rawBase = readme.url.slice(0, readme.url.lastIndexOf("/") + 1);
 
   return (
-    <section aria-labelledby="readme-title" className="rounded-xl border bg-surface p-6 md:p-8">
+    <section aria-labelledby="readme-title" className="rounded-xl border bg-surface p-4 sm:p-6 md:p-8">
       <h2 id="readme-title" className="font-mono text-xs font-semibold tracking-[0.2em] text-muted-foreground uppercase">
         {title}
       </h2>

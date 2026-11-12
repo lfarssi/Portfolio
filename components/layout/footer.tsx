@@ -7,7 +7,7 @@ export function Footer({ profile, t }: { profile: Profile; t: Dictionary }) {
 
   return (
     <footer className="border-t">
-      <div className="mx-auto flex w-full max-w-[72rem] flex-col gap-6 px-4 py-10 sm:px-6 md:flex-row md:items-center md:justify-between">
+      <div className="mx-auto flex w-full max-w-[72rem] flex-col gap-5 px-4 py-8 sm:gap-6 sm:px-6 sm:py-10 md:flex-row md:items-center md:justify-between">
         <div className="space-y-1 text-sm">
           <p className="font-semibold">{profile.fullName}</p>
           <p className="text-muted-foreground">{t.footer.tagline}</p>

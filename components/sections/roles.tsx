@@ -20,13 +20,13 @@ export function Roles({ locale, t, roles }: SectionProps & { roles: Role[] }) {
   return (
     <Section id="roles" muted>
       <SectionHeader id="roles-title" {...t.sections.roles} />
-      <ul className="stagger grid gap-6 md:grid-cols-2">
+      <ul className="stagger grid gap-4 sm:gap-6 md:grid-cols-2">
         {roles.map((role) => {
           const Icon = icons[role.id] ?? Code;
           const primary = role.level === "primary";
           return (
             <Reveal as="li" key={role.id}>
-              <Card interactive className="flex h-full flex-col p-6">
+              <Card interactive className="flex h-full flex-col p-5 sm:p-6">
                 <div className="flex items-start justify-between gap-4">
                   <span
                     className={
@@ -41,7 +41,7 @@ export function Roles({ locale, t, roles }: SectionProps & { roles: Role[] }) {
                     {primary ? t.sections.primaryRole : t.sections.secondaryRole}
                   </Badge>
                 </div>
-                <h3 className="mt-5 text-lg font-semibold">{role.title[locale]}</h3>
+                <h3 className="mt-4 text-base font-semibold sm:mt-5 sm:text-lg">{role.title[locale]}</h3>
                 <p className="mt-2 flex-1 text-sm leading-6 text-muted-foreground">{role.summary[locale]}</p>
                 <ul className="mt-5 flex flex-wrap gap-2">
                   {role.stack.map((item) => (

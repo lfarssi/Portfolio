@@ -66,7 +66,7 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
   ].filter((link): link is typeof link & { href: string } => Boolean(link.href));
 
   return (
-    <article className="mx-auto w-full max-w-[56rem] px-4 py-12 sm:px-6 md:py-16">
+    <article className="mx-auto w-full max-w-[56rem] px-4 py-8 sm:px-6 sm:py-12 md:py-16">
       <JsonLd data={projectJsonLd(project, locale)} nonce={nonce} />
 
       <Link
@@ -84,8 +84,8 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
           ))}
           {isDraftProject(project) ? <Badge variant="warning">{t.projects.draft}</Badge> : null}
         </div>
-        <h1 className="mt-4 text-[clamp(2rem,4.5vw,3rem)] leading-tight font-bold tracking-tight">{title}</h1>
-        <p className="mt-3 text-lg text-muted-foreground">{project.summary[locale]}</p>
+        <h1 className="mt-4 text-[clamp(1.75rem,4.5vw,3rem)] leading-tight font-bold tracking-tight">{title}</h1>
+        <p className="mt-3 text-base text-muted-foreground sm:text-lg">{project.summary[locale]}</p>
 
         <dl className="mt-6 grid gap-4 border-y py-4 sm:grid-cols-3">
           {meta.map(({ Icon, label, value }) => (
@@ -119,14 +119,14 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
         title={title}
         priority
         sizes="(min-width: 896px) 848px, 100vw"
-        className="mt-10 aspect-[2/1] rounded-xl border"
+        className="mt-8 aspect-[16/9] rounded-xl border sm:mt-10 sm:aspect-[2/1]"
       />
 
-      <div className="mt-10 space-y-10">
-        <p className="text-lg leading-8">{project.description[locale]}</p>
+      <div className="mt-8 space-y-8 sm:mt-10 sm:space-y-10">
+        <p className="text-base leading-7 sm:text-lg sm:leading-8">{project.description[locale]}</p>
 
         <section aria-labelledby="highlights-title">
-          <h2 id="highlights-title" className="text-xl font-semibold">
+          <h2 id="highlights-title" className="text-lg font-semibold sm:text-xl">
             {t.projects.highlights}
           </h2>
           <ul className="mt-4 list-disc space-y-2 pl-5 leading-7 marker:text-primary">
@@ -141,7 +141,7 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
         ) : null}
 
         <section aria-labelledby="technologies-title">
-          <h2 id="technologies-title" className="text-xl font-semibold">
+          <h2 id="technologies-title" className="text-lg font-semibold sm:text-xl">
             {t.projects.technologies}
           </h2>
           <ul className="mt-4 flex flex-wrap gap-2">
