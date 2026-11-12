@@ -343,7 +343,8 @@
       "date": "2026-07-26",
       "isFeatured": true,
       "github": "https://github.com/lfarssi/secure-notes",
-      "context": "personal"
+      "context": "personal",
+      "image": "/images/projects/secure-notes.jpg"
     },
     {
       "slug": "pentest-kit",
@@ -401,7 +402,8 @@
       "date": "2026-04-06",
       "isFeatured": true,
       "github": "https://github.com/lfarssi/pentest-kit",
-      "context": "personal"
+      "context": "personal",
+      "image": "/images/projects/pentest-kit.jpg"
     },
     {
       "slug": "buy-01",
@@ -463,7 +465,8 @@
       "date": "2026-03-10",
       "isFeatured": true,
       "github": "",
-      "context": "zone01"
+      "context": "zone01",
+      "image": "/images/projects/buy-01.jpg"
     },
     {
       "slug": "http-server",
@@ -522,7 +525,8 @@
       "date": "2026-02-05",
       "isFeatured": true,
       "github": "https://github.com/lfarssi/localserver",
-      "context": "zone01"
+      "context": "zone01",
+      "image": "/images/projects/http-server.jpg"
     },
     {
       "slug": "deep-in-system",
@@ -588,7 +592,8 @@
       "date": "2026-05-20",
       "isFeatured": true,
       "github": "",
-      "context": "zone01"
+      "context": "zone01",
+      "image": "/images/projects/deep-in-system.jpg"
     },
     {
       "slug": "real-time-forum",
@@ -648,7 +653,8 @@
       "date": "2025-04-01",
       "isFeatured": true,
       "github": "https://github.com/lfarssi/real-time-forum",
-      "context": "zone01"
+      "context": "zone01",
+      "image": "/images/projects/real-time-forum.jpg"
     },
     {
       "slug": "01blog",
@@ -708,7 +714,8 @@
       "date": "2025-10-19",
       "isFeatured": true,
       "github": "https://github.com/lfarssi/01-Blog",
-      "context": "zone01"
+      "context": "zone01",
+      "image": "/images/projects/01blog.jpg"
     },
     {
       "slug": "sky-map",
@@ -756,7 +763,8 @@
       "date": "2026-08-20",
       "isFeatured": true,
       "github": "https://github.com/lfarssi/sky-map",
-      "context": "personal"
+      "context": "personal",
+      "image": "/images/projects/sky-map.jpg"
     },
     {
       "slug": "osint-master",
@@ -800,7 +808,8 @@
       "date": "2026-04-13",
       "isFeatured": false,
       "github": "https://github.com/lfarssi/osint-master",
-      "context": "personal"
+      "context": "personal",
+      "image": "/images/projects/osint-master.jpg"
     },
     {
       "slug": "image-inspector",
@@ -844,7 +853,8 @@
       "date": "2026-07-26",
       "isFeatured": false,
       "github": "https://github.com/lfarssi/image-inspector",
-      "context": "personal"
+      "context": "personal",
+      "image": "/images/projects/image-inspector.jpg"
     },
     {
       "slug": "lets-play",
@@ -903,7 +913,8 @@
       "date": "2026-02-04",
       "isFeatured": false,
       "github": "https://github.com/lfarssi/lets-play",
-      "context": "zone01"
+      "context": "zone01",
+      "image": "/images/projects/lets-play.jpg"
     },
     {
       "slug": "angul-it",
@@ -960,7 +971,8 @@
       "date": "2026-04-18",
       "isFeatured": false,
       "github": "https://github.com/lfarssi/angulIt",
-      "context": "zone01"
+      "context": "zone01",
+      "image": "/images/projects/angul-it.jpg"
     },
     {
       "slug": "social-network",
@@ -1016,7 +1028,8 @@
       "date": "2025-05-21",
       "isFeatured": false,
       "github": "https://github.com/lfarssi/my-social-network",
-      "context": "zone01"
+      "context": "zone01",
+      "image": "/images/projects/social-network.jpg"
     },
     {
       "slug": "graphql-profile",
@@ -1073,7 +1086,8 @@
       "date": "2025-04-27",
       "isFeatured": false,
       "github": "https://github.com/lfarssi/graphql",
-      "context": "zone01"
+      "context": "zone01",
+      "image": "/images/projects/graphql-profile.jpg"
     },
     {
       "slug": "crud-master",
@@ -1130,7 +1144,8 @@
       "date": "2026-06-02",
       "isFeatured": false,
       "github": "",
-      "context": "zone01"
+      "context": "zone01",
+      "image": "/images/projects/crud-master.jpg"
     },
     {
       "slug": "deep-in-networking",
@@ -1183,7 +1198,8 @@
       "date": "2026-05-12",
       "isFeatured": false,
       "github": "https://github.com/lfarssi/deep-in-net",
-      "context": "zone01"
+      "context": "zone01",
+      "image": "/images/projects/deep-in-networking.jpg"
     },
     {
       "slug": "0-shell",
@@ -1225,7 +1241,8 @@
       "date": "2025-07-14",
       "isFeatured": false,
       "github": "https://github.com/lfarssi/0-shell",
-      "context": "zone01"
+      "context": "zone01",
+      "image": "/images/projects/0-shell.jpg"
     },
     {
       "slug": "wget",
@@ -1267,7 +1284,8 @@
       "date": "2025-11-15",
       "isFeatured": false,
       "github": "",
-      "context": "zone01"
+      "context": "zone01",
+      "image": "/images/projects/wget.jpg"
     },
     {
       "slug": "backup-manager",
@@ -1309,7 +1327,8 @@
       "date": "2026-07-24",
       "isFeatured": false,
       "github": "https://github.com/lfarssi/backup_manager",
-      "context": "zone01"
+      "context": "zone01",
+      "image": "/images/projects/backup-manager.jpg"
     },
     {
       "slug": "groupie-tracker",
@@ -1352,7 +1371,8 @@
       "date": "2024-11-16",
       "isFeatured": false,
       "github": "https://github.com/lfarssi/groupie-tracker",
-      "context": "zone01"
+      "context": "zone01",
+      "image": "/images/projects/groupie-tracker.jpg"
     },
     {
       "slug": "go-web-forum",
@@ -1396,7 +1416,8 @@
       "date": "2024-12-24",
       "isFeatured": false,
       "github": "https://github.com/lfarssi/forum",
-      "context": "zone01"
+      "context": "zone01",
+      "image": "/images/projects/go-web-forum.jpg"
     },
     {
       "slug": "make-your-game",
@@ -1438,7 +1459,8 @@
       "date": "2025-03-28",
       "isFeatured": false,
       "github": "",
-      "context": "zone01"
+      "context": "zone01",
+      "image": "/images/projects/make-your-game.jpg"
     },
     {
       "slug": "ascii-art-web",
@@ -1480,7 +1502,8 @@
       "date": "2024-10-07",
       "isFeatured": false,
       "github": "https://github.com/lfarssi/ascii-art-web",
-      "context": "zone01"
+      "context": "zone01",
+      "image": "/images/projects/ascii-art-web.jpg"
     }
   ],
   "education": [
