@@ -67,14 +67,16 @@ export function getProjectCategories(): ProjectCategory[] {
   return order.filter((category) => used.has(category));
 }
 
-/** Raw README URL: explicit `readmeUrl`, or derived from a real GitHub repo URL. */
-export function getReadmeUrl(project: Project): string | undefined {
+const README_NAMES = ["README.md", "readme.md", "Readme.md"];
+
+/** Candidate raw README URLs: explicit `readmeUrl`, or derived from a real GitHub repo URL. */
+export function getReadmeUrls(project: Project): string[] {
   const explicit = usableUrl(project.readmeUrl);
-  if (explicit) return explicit;
+  if (explicit) return [explicit];
   const github = usableUrl(project.github);
   const match = github?.match(/^https:\/\/github\.com\/([\w.-]+)\/([\w.-]+?)\/?$/);
-  if (!match) return undefined;
-  return `https://raw.githubusercontent.com/${match[1]}/${match[2]}/HEAD/README.md`;
+  if (!match) return [];
+  return README_NAMES.map((name) => `https://raw.githubusercontent.com/${match[1]}/${match[2]}/HEAD/${name}`);
 }
 
 export function localize(value: Localized, locale: Locale): string {

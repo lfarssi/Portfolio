@@ -44,8 +44,8 @@
       "fr": "/cv/mohamed-el-farssi-cv-fr.pdf"
     },
     "socials": {
-      "github": "https://github.com/{{GITHUB_USERNAME}}",
-      "linkedin": "{{LINKEDIN_URL}}",
+      "github": "https://github.com/lfarssi",
+      "linkedin": "https://www.linkedin.com/in/mohamed-el-farssi-1b6710254/",
       "tryhackme": "",
       "rootme": "",
       "store": ""
@@ -116,7 +116,9 @@
         "fr": "Concevoir et publier des applications Android et iOS avec stockage sécurisé et API authentifiées. Une publication soignée, de la signature à la réduction des permissions, selon l'OWASP MASVS."
       },
       "stack": [
-        "{{Flutter / Kotlin / React Native / Swift}}",
+        "Flutter",
+        "Dart",
+        "BLoC",
         "Firebase",
         "REST APIs",
         "OWASP MASVS"
@@ -183,7 +185,9 @@
           "SSH hardening",
           "UFW / firewalls",
           "Linux hardening",
-          "{{other tools he really uses}}"
+          "OSINT",
+          "Digital forensics (EXIF, LSB steganography)",
+          "Python security tooling"
         ]
       },
       {
@@ -193,7 +197,11 @@
           "fr": "Mobile"
         },
         "items": [
-          "{{Flutter, Dart, Kotlin, Jetpack Compose, React Native, Swift: keep only real ones}}",
+          "Flutter",
+          "Dart",
+          "BLoC",
+          "SQLite (sqflite)",
+          "Device sensors",
           "Firebase",
           "Android Studio"
         ]
@@ -280,104 +288,120 @@
   },
   "projects": [
     {
-      "slug": "mobile-project-1",
+      "slug": "secure-notes",
       "title": {
-        "en": "{{App name}}",
-        "fr": "{{Nom de l'app}}"
+        "en": "Secure Notes",
+        "fr": "Secure Notes"
       },
       "summary": {
-        "en": "{{One sentence: what the app does and for whom}}",
-        "fr": "{{Une phrase : ce que fait l'app et pour qui}}"
+        "en": "Flutter notes app locked behind biometric or device PIN authentication, with on-device storage.",
+        "fr": "Application de notes Flutter verrouillée par biométrie ou code de l'appareil, avec stockage local."
       },
       "description": {
-        "en": "{{2 to 4 sentences: the problem, the solution, the result}}",
-        "fr": "{{2 à 4 phrases : le problème, la solution, le résultat}}"
+        "en": "A cross-platform notes app built with Flutter. The app opens only after biometric or device-credential authentication, and notes are stored locally in SQLite without any cloud sync. The interface is localised in English and Spanish.",
+        "fr": "Une application de notes multiplateforme construite avec Flutter. Elle ne s'ouvre qu'après une authentification biométrique ou par code de l'appareil, et les notes sont stockées localement dans SQLite sans synchronisation cloud. L'interface est traduite en anglais et en espagnol."
       },
       "highlights": {
         "en": [
-          "{{What he built}}",
-          "{{What he learned}}",
-          "{{Result, users or downloads}}"
+          "Authentication service built on local_auth with biometric and PIN support",
+          "Local persistence with sqflite and a typed note model",
+          "Internationalisation with ARB files (English and Spanish)"
         ],
         "fr": [
-          "{{Ce qu'il a construit}}",
-          "{{Ce qu'il a appris}}",
-          "{{Résultat, utilisateurs ou téléchargements}}"
+          "Service d'authentification basé sur local_auth avec biométrie et code PIN",
+          "Persistance locale avec sqflite et un modèle de note typé",
+          "Internationalisation avec des fichiers ARB (anglais et espagnol)"
         ]
       },
       "securityNotes": {
         "en": [
-          "{{Secure storage (Keystore / Keychain / encrypted prefs)}}",
-          "{{Certificate pinning}}",
-          "{{Code obfuscation}}",
-          "{{Permission minimisation}}"
+          "App content gated behind biometric or device-credential authentication",
+          "Notes never leave the device: no network calls, no cloud sync",
+          "Sticky authentication keeps the prompt active when the app goes to the background"
         ],
         "fr": [
-          "{{Stockage sécurisé (Keystore / Keychain / prefs chiffrées)}}",
-          "{{Certificate pinning}}",
-          "{{Obfuscation du code}}",
-          "{{Permissions minimales}}"
+          "Contenu de l'application protégé par authentification biométrique ou code de l'appareil",
+          "Les notes ne quittent jamais l'appareil : aucun appel réseau, aucune synchronisation cloud",
+          "Authentification persistante : l'invite reste active quand l'application passe en arrière-plan"
         ]
       },
       "technologies": [
-        "{{Flutter/Kotlin/...}}"
+        "Flutter",
+        "Dart",
+        "SQLite",
+        "local_auth"
       ],
       "categories": [
         "mobile",
         "security"
       ],
-      "isFeatured": true,
-      "context": "personal",
       "role": {
-        "en": "{{Solo}}",
-        "fr": "{{Solo}}"
+        "en": "Solo",
+        "fr": "Solo"
       },
       "teamSize": 1,
-      "date": "{{DATE}}",
-      "github": "{{GITHUB_REPO_URL}}",
-      "storeUrl": "{{STORE_LINK_OR_APK_RELEASE}}"
+      "date": "2026-07-26",
+      "isFeatured": true,
+      "github": "https://github.com/lfarssi/secure-notes",
+      "context": "personal"
     },
     {
-      "slug": "security-project-1",
+      "slug": "pentest-kit",
       "title": {
-        "en": "{{Security project name}}",
-        "fr": "{{Nom du projet sécurité}}"
+        "en": "PentestKit",
+        "fr": "PentestKit"
       },
       "summary": {
-        "en": "{{e.g. CTF write-ups repository, vulnerability scanner, OWASP Juice Shop write-up, home-lab}}",
-        "fr": "{{ex. dépôt de write-ups CTF, scanner de vulnérabilités, write-up OWASP Juice Shop, home-lab}}"
+        "en": "Python penetration testing toolkit: port scanner, directory brute-forcer, host discovery and HTTP header analysis.",
+        "fr": "Boîte à outils de test d'intrusion en Python : scanner de ports, brute-force de répertoires, découverte d'hôtes et analyse d'en-têtes HTTP."
       },
       "description": {
-        "en": "{{2 to 4 sentences: scope, method, findings}}",
-        "fr": "{{2 à 4 phrases : périmètre, méthode, résultats}}"
+        "en": "A multi-tool pentesting kit written from scratch in Python to understand how classic tools work internally. It bundles a TCP port scanner, a web directory brute-forcer, a ping-sweep host mapper and an HTTP security header analyser, meant to be run in an isolated lab.",
+        "fr": "Une boîte à outils de pentest écrite de zéro en Python pour comprendre le fonctionnement interne des outils classiques. Elle regroupe un scanner de ports TCP, un brute-forceur de répertoires web, un cartographe d'hôtes par ping sweep et un analyseur d'en-têtes de sécurité HTTP, à utiliser dans un lab isolé."
       },
       "highlights": {
         "en": [
-          "{{Methodology}}",
-          "{{Key finding}}",
-          "{{Tooling}}"
+          "TinyScanner: TCP port scanning built on raw sockets",
+          "DirFinder: wordlist-based discovery of hidden web paths",
+          "HostMapper: ping sweep to map live hosts on a subnet",
+          "HeaderGrabber: flags missing or weak HTTP security headers"
         ],
         "fr": [
-          "{{Méthodologie}}",
-          "{{Constat clé}}",
-          "{{Outils}}"
+          "TinyScanner : scan de ports TCP construit sur des sockets bruts",
+          "DirFinder : découverte de chemins web cachés à partir d'une wordlist",
+          "HostMapper : ping sweep pour cartographier les hôtes actifs d'un sous-réseau",
+          "HeaderGrabber : signale les en-têtes de sécurité HTTP absents ou faibles"
+        ]
+      },
+      "securityNotes": {
+        "en": [
+          "Built for authorised testing in an isolated virtual lab only",
+          "Ethical and legal rules documented alongside the tools"
+        ],
+        "fr": [
+          "Conçu uniquement pour des tests autorisés dans un lab virtuel isolé",
+          "Règles éthiques et légales documentées avec les outils"
         ]
       },
       "technologies": [
-        "{{Tools}}"
+        "Python",
+        "Sockets",
+        "HTTP",
+        "Linux"
       ],
       "categories": [
-        "security"
+        "security",
+        "systems"
       ],
-      "isFeatured": true,
-      "context": "personal",
       "role": {
-        "en": "{{Solo}}",
-        "fr": "{{Solo}}"
+        "en": "Solo",
+        "fr": "Solo"
       },
       "teamSize": 1,
-      "date": "{{DATE}}",
-      "github": "{{GITHUB_REPO_URL}}"
+      "date": "2026-04-06",
+      "isFeatured": true,
+      "github": "https://github.com/lfarssi/pentest-kit",
+      "context": "personal"
     },
     {
       "slug": "buy-01",
@@ -438,7 +462,7 @@
       "teamSize": "{{CONFIRM}}",
       "date": "{{CONFIRM}}",
       "isFeatured": true,
-      "github": "https://github.com/{{GITHUB_USERNAME}}/buy-01",
+      "github": "{{REPO_URL_OR_EMPTY_IF_PRIVATE}}",
       "context": "zone01"
     },
     {
@@ -495,9 +519,9 @@
         "fr": "{{CONFIRM}}"
       },
       "teamSize": "{{CONFIRM}}",
-      "date": "{{CONFIRM}}",
+      "date": "2026-02-05",
       "isFeatured": true,
-      "github": "https://github.com/{{GITHUB_USERNAME}}/http-server",
+      "github": "https://github.com/lfarssi/localserver",
       "context": "zone01"
     },
     {
@@ -563,7 +587,7 @@
       "teamSize": "{{CONFIRM}}",
       "date": "{{CONFIRM}}",
       "isFeatured": true,
-      "github": "https://github.com/{{GITHUB_USERNAME}}/deep-in-system",
+      "github": "{{REPO_URL_OR_EMPTY_IF_PRIVATE}}",
       "context": "zone01"
     },
     {
@@ -621,9 +645,9 @@
         "fr": "{{CONFIRM}}"
       },
       "teamSize": "{{CONFIRM}}",
-      "date": "{{CONFIRM}}",
+      "date": "2025-04-01",
       "isFeatured": true,
-      "github": "https://github.com/{{GITHUB_USERNAME}}/real-time-forum",
+      "github": "https://github.com/lfarssi/real-time-forum",
       "context": "zone01"
     },
     {
@@ -681,68 +705,146 @@
         "fr": "{{CONFIRM}}"
       },
       "teamSize": "{{CONFIRM}}",
-      "date": "{{CONFIRM}}",
+      "date": "2025-10-19",
       "isFeatured": true,
-      "github": "https://github.com/{{GITHUB_USERNAME}}/01blog",
+      "github": "https://github.com/lfarssi/01-Blog",
       "context": "zone01"
     },
     {
-      "slug": "mobile-project-2",
+      "slug": "sky-map",
       "title": {
-        "en": "{{App name}}",
-        "fr": "{{Nom de l'app}}"
+        "en": "Sky Map",
+        "fr": "Sky Map"
       },
       "summary": {
-        "en": "{{One sentence: what the app does and for whom}}",
-        "fr": "{{Une phrase : ce que fait l'app et pour qui}}"
+        "en": "Real-time night sky map in Flutter driven by GPS, accelerometer and magnetometer.",
+        "fr": "Carte du ciel en temps réel avec Flutter, pilotée par le GPS, l'accéléromètre et le magnétomètre."
       },
       "description": {
-        "en": "{{2 to 4 sentences: the problem, the solution, the result}}",
-        "fr": "{{2 à 4 phrases : le problème, la solution, le résultat}}"
+        "en": "An interactive sky map for mobile and desktop. Point the phone at the sky and the app draws the Sun, Moon, planets and constellations at their real positions, refreshed more than ten times per second from the device sensors.",
+        "fr": "Une carte du ciel interactive pour mobile et desktop. Pointez le téléphone vers le ciel et l'application affiche le Soleil, la Lune, les planètes et les constellations à leur position réelle, rafraîchies plus de dix fois par seconde grâce aux capteurs."
       },
       "highlights": {
         "en": [
-          "{{What he built}}",
-          "{{What he learned}}",
-          "{{Result, users or downloads}}"
+          "BLoC architecture separating sensors, repositories and the custom-painted canvas",
+          "Astronomy calculations for solar, lunar and planetary positions",
+          "Live public API with an offline JSON catalogue as fallback",
+          "Drag and tilt controls to test on desktop or emulators without sensors"
         ],
         "fr": [
-          "{{Ce qu'il a construit}}",
-          "{{Ce qu'il a appris}}",
-          "{{Résultat, utilisateurs ou téléchargements}}"
-        ]
-      },
-      "securityNotes": {
-        "en": [
-          "{{Secure storage (Keystore / Keychain / encrypted prefs)}}",
-          "{{Certificate pinning}}",
-          "{{Code obfuscation}}",
-          "{{Permission minimisation}}"
-        ],
-        "fr": [
-          "{{Stockage sécurisé (Keystore / Keychain / prefs chiffrées)}}",
-          "{{Certificate pinning}}",
-          "{{Obfuscation du code}}",
-          "{{Permissions minimales}}"
+          "Architecture BLoC qui sépare capteurs, repositories et canvas dessiné sur mesure",
+          "Calculs astronomiques des positions du Soleil, de la Lune et des planètes",
+          "API publique en direct avec un catalogue JSON hors ligne en secours",
+          "Contrôles de glisser et d'inclinaison pour tester sur desktop ou émulateur sans capteurs"
         ]
       },
       "technologies": [
-        "{{Flutter/Kotlin/...}}"
+        "Flutter",
+        "Dart",
+        "BLoC",
+        "Sensors",
+        "Geolocator"
       ],
       "categories": [
-        "mobile",
-        "security"
+        "mobile"
       ],
-      "isFeatured": true,
-      "context": "personal",
       "role": {
-        "en": "{{Solo}}",
-        "fr": "{{Solo}}"
+        "en": "Solo",
+        "fr": "Solo"
       },
       "teamSize": 1,
-      "date": "{{DATE}}",
-      "github": "{{GITHUB_REPO_URL}}",
-      "storeUrl": "{{STORE_LINK_OR_APK_RELEASE}}"
+      "date": "2026-08-20",
+      "isFeatured": true,
+      "github": "https://github.com/lfarssi/sky-map",
+      "context": "personal"
+    },
+    {
+      "slug": "osint-master",
+      "title": {
+        "en": "OSINT Master",
+        "fr": "OSINT Master"
+      },
+      "summary": {
+        "en": "Command-line OSINT tool for passive reconnaissance on IPs, usernames and domains.",
+        "fr": "Outil OSINT en ligne de commande pour la reconnaissance passive sur des IP, pseudonymes et domaines."
+      },
+      "description": {
+        "en": "A passive reconnaissance tool that relies only on public data. It geolocates IP addresses with ISP and abuse indicators, checks where a username exists across platforms, and maps a domain through DNS records, subdomains, TLS certificates and takeover risks.",
+        "fr": "Un outil de reconnaissance passive qui s'appuie uniquement sur des données publiques. Il géolocalise des adresses IP avec FAI et indicateurs d'abus, vérifie sur quelles plateformes un pseudonyme existe, et cartographie un domaine via ses enregistrements DNS, sous-domaines, certificats TLS et risques de takeover."
+      },
+      "highlights": {
+        "en": [
+          "IP lookup with geolocation, ASN and abuse reputation",
+          "Username enumeration across several platforms",
+          "Domain scan: DNS records, subdomains, TLS certificates and subdomain takeover detection"
+        ],
+        "fr": [
+          "Recherche d'IP avec géolocalisation, ASN et réputation d'abus",
+          "Énumération de pseudonymes sur plusieurs plateformes",
+          "Scan de domaine : DNS, sous-domaines, certificats TLS et détection de subdomain takeover"
+        ]
+      },
+      "technologies": [
+        "Python",
+        "dnspython",
+        "Requests"
+      ],
+      "categories": [
+        "security"
+      ],
+      "role": {
+        "en": "Solo",
+        "fr": "Solo"
+      },
+      "teamSize": 1,
+      "date": "2026-04-13",
+      "isFeatured": false,
+      "github": "https://github.com/lfarssi/osint-master",
+      "context": "personal"
+    },
+    {
+      "slug": "image-inspector",
+      "title": {
+        "en": "Image Inspector",
+        "fr": "Image Inspector"
+      },
+      "summary": {
+        "en": "Digital forensics CLI that extracts EXIF metadata and detects LSB steganography in images.",
+        "fr": "CLI de forensique numérique qui extrait les métadonnées EXIF et détecte la stéganographie LSB dans les images."
+      },
+      "description": {
+        "en": "A forensics tool for investigators and privacy analysts. It extracts GPS coordinates, device information and timestamps from EXIF metadata, and scans pixel least significant bits for hidden payloads such as PGP key blocks.",
+        "fr": "Un outil de forensique pour enquêteurs et analystes en confidentialité. Il extrait les coordonnées GPS, les informations de l'appareil et les horodatages des métadonnées EXIF, et analyse les bits de poids faible des pixels pour trouver des contenus cachés comme des blocs de clés PGP."
+      },
+      "highlights": {
+        "en": [
+          "EXIF GPS rationals converted to decimal latitude and longitude",
+          "LSB steganography detection across RGB channels",
+          "Graceful handling of images without metadata or payload"
+        ],
+        "fr": [
+          "Rationnels GPS EXIF convertis en latitude et longitude décimales",
+          "Détection de stéganographie LSB sur les canaux RVB",
+          "Gestion propre des images sans métadonnées ni contenu caché"
+        ]
+      },
+      "technologies": [
+        "Python",
+        "Pillow",
+        "NumPy"
+      ],
+      "categories": [
+        "security"
+      ],
+      "role": {
+        "en": "Solo",
+        "fr": "Solo"
+      },
+      "teamSize": 1,
+      "date": "2026-07-26",
+      "isFeatured": false,
+      "github": "https://github.com/lfarssi/image-inspector",
+      "context": "personal"
     },
     {
       "slug": "lets-play",
@@ -798,9 +900,9 @@
         "fr": "{{CONFIRM}}"
       },
       "teamSize": "{{CONFIRM}}",
-      "date": "{{CONFIRM}}",
+      "date": "2026-02-04",
       "isFeatured": false,
-      "github": "https://github.com/{{GITHUB_USERNAME}}/lets-play",
+      "github": "https://github.com/lfarssi/lets-play",
       "context": "zone01"
     },
     {
@@ -855,9 +957,9 @@
         "fr": "{{CONFIRM}}"
       },
       "teamSize": "{{CONFIRM}}",
-      "date": "{{CONFIRM}}",
+      "date": "2026-04-18",
       "isFeatured": false,
-      "github": "https://github.com/{{GITHUB_USERNAME}}/angul-it",
+      "github": "https://github.com/lfarssi/angulIt",
       "context": "zone01"
     },
     {
@@ -911,9 +1013,9 @@
         "fr": "{{CONFIRM}}"
       },
       "teamSize": "{{CONFIRM}}",
-      "date": "{{CONFIRM}}",
+      "date": "2025-05-21",
       "isFeatured": false,
-      "github": "https://github.com/{{GITHUB_USERNAME}}/social-network",
+      "github": "https://github.com/lfarssi/my-social-network",
       "context": "zone01"
     },
     {
@@ -968,9 +1070,9 @@
         "fr": "{{CONFIRM}}"
       },
       "teamSize": "{{CONFIRM}}",
-      "date": "{{CONFIRM}}",
+      "date": "2025-04-27",
       "isFeatured": false,
-      "github": "https://github.com/{{GITHUB_USERNAME}}/graphql-profile",
+      "github": "https://github.com/lfarssi/graphql",
       "context": "zone01"
     },
     {
@@ -1027,7 +1129,7 @@
       "teamSize": "{{CONFIRM}}",
       "date": "{{CONFIRM}}",
       "isFeatured": false,
-      "github": "https://github.com/{{GITHUB_USERNAME}}/crud-master",
+      "github": "{{REPO_URL_OR_EMPTY_IF_PRIVATE}}",
       "context": "zone01"
     },
     {
@@ -1078,9 +1180,9 @@
         "fr": "{{CONFIRM}}"
       },
       "teamSize": "{{CONFIRM}}",
-      "date": "{{CONFIRM}}",
+      "date": "2026-05-12",
       "isFeatured": false,
-      "github": "https://github.com/{{GITHUB_USERNAME}}/deep-in-networking",
+      "github": "https://github.com/lfarssi/deep-in-net",
       "context": "zone01"
     },
     {
@@ -1120,9 +1222,9 @@
         "fr": "{{CONFIRM}}"
       },
       "teamSize": "{{CONFIRM}}",
-      "date": "{{CONFIRM}}",
+      "date": "2025-07-14",
       "isFeatured": false,
-      "github": "https://github.com/{{GITHUB_USERNAME}}/0-shell",
+      "github": "https://github.com/lfarssi/0-shell",
       "context": "zone01"
     },
     {
@@ -1164,7 +1266,7 @@
       "teamSize": "{{CONFIRM}}",
       "date": "{{CONFIRM}}",
       "isFeatured": false,
-      "github": "https://github.com/{{GITHUB_USERNAME}}/wget",
+      "github": "{{REPO_URL_OR_EMPTY_IF_PRIVATE}}",
       "context": "zone01"
     },
     {
@@ -1204,9 +1306,9 @@
         "fr": "{{CONFIRM}}"
       },
       "teamSize": "{{CONFIRM}}",
-      "date": "{{CONFIRM}}",
+      "date": "2026-07-24",
       "isFeatured": false,
-      "github": "https://github.com/{{GITHUB_USERNAME}}/backup-manager",
+      "github": "https://github.com/lfarssi/backup_manager",
       "context": "zone01"
     },
     {
@@ -1247,9 +1349,9 @@
         "fr": "{{CONFIRM}}"
       },
       "teamSize": "{{CONFIRM}}",
-      "date": "{{CONFIRM}}",
+      "date": "2024-11-16",
       "isFeatured": false,
-      "github": "https://github.com/{{GITHUB_USERNAME}}/groupie-tracker",
+      "github": "https://github.com/lfarssi/groupie-tracker",
       "context": "zone01"
     },
     {
@@ -1291,9 +1393,9 @@
         "fr": "{{CONFIRM}}"
       },
       "teamSize": "{{CONFIRM}}",
-      "date": "{{CONFIRM}}",
+      "date": "2024-12-24",
       "isFeatured": false,
-      "github": "https://github.com/{{GITHUB_USERNAME}}/go-web-forum",
+      "github": "https://github.com/lfarssi/forum",
       "context": "zone01"
     },
     {
@@ -1335,7 +1437,7 @@
       "teamSize": "{{CONFIRM}}",
       "date": "{{CONFIRM}}",
       "isFeatured": false,
-      "github": "https://github.com/{{GITHUB_USERNAME}}/make-your-game",
+      "github": "{{REPO_URL_OR_EMPTY_IF_PRIVATE}}",
       "context": "zone01"
     },
     {
@@ -1375,9 +1477,9 @@
         "fr": "{{CONFIRM}}"
       },
       "teamSize": "{{CONFIRM}}",
-      "date": "{{CONFIRM}}",
+      "date": "2024-10-07",
       "isFeatured": false,
-      "github": "https://github.com/{{GITHUB_USERNAME}}/ascii-art-web",
+      "github": "https://github.com/lfarssi/ascii-art-web",
       "context": "zone01"
     }
   ],
